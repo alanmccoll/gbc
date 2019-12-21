@@ -1,0 +1,105 @@
+uuid: 33161bac-6044-403e-9501-1825e07f9085
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.t
+  content:
+    - 'block_content:basic:d9c0d0c0-05a9-410a-9e6a-33710e9cb31e'
+    - 'block_content:basic:df27ca16-4433-44ce-9396-beb9432690f8'
+  module:
+    - block_content
+    - panels
+id: t-panels_variant-0
+label: TimesLocation
+variant: panels_variant
+variant_settings:
+  blocks:
+    af111f95-d873-45a9-9ae0-71221137c8b6:
+      id: 'block_content:d9c0d0c0-05a9-410a-9e6a-33710e9cb31e'
+      label: 'Times and Location'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top_left
+      weight: 0
+      uuid: af111f95-d873-45a9-9ae0-71221137c8b6
+      context_mapping: {  }
+    74e0f4b1-5203-4194-b5ac-6b66d5ad78cb:
+      id: 'block_content:df27ca16-4433-44ce-9396-beb9432690f8'
+      label: 'GBC Map'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top_right
+      weight: 0
+      uuid: 74e0f4b1-5203-4194-b5ac-6b66d5ad78cb
+      context_mapping: {  }
+  id: panels_variant
+  uuid: c10f9bb7-8857-40f3-b0fd-80407c2f77ac
+  label: null
+  weight: 0
+  layout: bs_2col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-lg-8: col-lg-8
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-lg-4: col-lg-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: 'Times and Location'
+  storage_type: page_manager
+  storage_id: t-panels_variant-0
+  builder: standard
+page: t
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

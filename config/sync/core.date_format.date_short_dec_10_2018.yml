@@ -1,0 +1,8 @@
+uuid: da7d9b69-e9c2-4e03-8824-bc31efb0c7f7
+langcode: en
+status: true
+dependencies: {  }
+id: date_short_dec_10_2018
+label: 'Date short Dec 10, 2018'
+locked: false
+pattern: 'M d, Y'

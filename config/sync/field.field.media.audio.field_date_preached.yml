@@ -1,0 +1,21 @@
+uuid: cb78a449-2c3e-4fc3-86a4-0fe94a7e1efd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_date_preached
+    - media.type.audio
+  module:
+    - datetime
+id: media.audio.field_date_preached
+field_name: field_date_preached
+entity_type: media
+bundle: audio
+label: 'Date Preached'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,20 @@
+uuid: 31e85975-4d2b-41ca-a54d-46cbe7d77cc2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gbc
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gbc_page_title
+theme: gbc
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

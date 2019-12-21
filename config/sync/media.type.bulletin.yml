@@ -1,0 +1,13 @@
+uuid: bfcd843b-c28f-4f57-868f-d556d6bfcd1b
+langcode: en
+status: true
+dependencies: {  }
+id: bulletin
+label: Bulletin
+description: 'weekly bulletin'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file_1
+field_map: {  }

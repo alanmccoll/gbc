@@ -1,0 +1,189 @@
+uuid: b6584adb-d979-4efa-a150-d822a4339551
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.home_page
+    - views.view.bulletins
+    - views.view.prayer_letters
+    - views.view.sermon_audio_list
+  content:
+    - 'block_content:basic:0f3fe050-1804-4819-9167-b56f02dadcdd'
+    - 'block_content:basic:25bcd992-7eb2-448e-8e72-77ce5662154c'
+    - 'block_content:basic:494888df-b534-4664-a891-d9fba0a43f69'
+    - 'block_content:basic:5f96d0db-bbbf-4a89-aa0f-cd469f0b726a'
+  module:
+    - block_content
+    - bootstrap_simple_carousel
+    - panels
+    - views
+id: home_page-panels_variant-0
+label: HomePage
+variant: panels_variant
+variant_settings:
+  blocks:
+    352e4a4e-cee5-460e-b476-6423b7ff3f1a:
+      id: bootstrap_simple_carousel_block
+      label: 'Bootstrap simple carousel block'
+      provider: bootstrap_simple_carousel
+      label_display: '0'
+      region: top
+      weight: -10
+      uuid: 352e4a4e-cee5-460e-b476-6423b7ff3f1a
+      context_mapping: {  }
+    34d96c61-45d1-4a6c-aeaf-a16f56cec6d0:
+      id: 'block_content:5f96d0db-bbbf-4a89-aa0f-cd469f0b726a'
+      label: 'Mission Statement'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -9
+      uuid: 34d96c61-45d1-4a6c-aeaf-a16f56cec6d0
+      context_mapping: {  }
+    5857b4e1-ef21-41ec-979d-7e521b4f7179:
+      id: 'block_content:25bcd992-7eb2-448e-8e72-77ce5662154c'
+      label: 'Welcome Video'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top_middle
+      weight: -3
+      uuid: 5857b4e1-ef21-41ec-979d-7e521b4f7179
+      context_mapping: {  }
+    d0e24bea-4604-474e-ad9c-5406a0bf2451:
+      id: 'block_content:0f3fe050-1804-4819-9167-b56f02dadcdd'
+      label: 'Map Component Block'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top_left
+      weight: -3
+      uuid: d0e24bea-4604-474e-ad9c-5406a0bf2451
+      context_mapping: {  }
+    4418ce1f-c6bb-4940-8798-ae2226e14d01:
+      id: 'block_content:494888df-b534-4664-a891-d9fba0a43f69'
+      label: 'What to Expect'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top_right
+      weight: -3
+      context_mapping: {  }
+      uuid: 4418ce1f-c6bb-4940-8798-ae2226e14d01
+    ba24bc52-05b0-46db-a07b-4be060f5de6a:
+      id: 'views_block:bulletins-block_2'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top_left
+      weight: -2
+      uuid: ba24bc52-05b0-46db-a07b-4be060f5de6a
+      context_mapping: {  }
+    bb760e60-f2f6-4a5c-af18-0be1296057e3:
+      id: 'views_block:sermon_audio_list-block_2'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top_right
+      weight: -2
+      uuid: bb760e60-f2f6-4a5c-af18-0be1296057e3
+      context_mapping: {  }
+    0acbbcb2-d82f-443c-81af-08d54772f62f:
+      id: 'views_block:prayer_letters-block_2'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top_middle
+      weight: 0
+      uuid: 0acbbcb2-d82f-443c-81af-08d54772f62f
+      context_mapping: {  }
+  id: panels_variant
+  uuid: b3532659-62f4-4270-bfda-aef3a30414e3
+  label: null
+  weight: 0
+  layout: bs_3col_bricked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      top_left:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      top_middle:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      top_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      middle:
+        wrapper: div
+        classes: {  }
+        add_region_classes: 1
+        attributes: ''
+      bottom_left:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: 'panel panel-default'
+      bottom_middle:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom_right:
+        wrapper: div
+        classes:
+          col-sm-4: col-sm-4
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: ''
+  storage_type: page_manager
+  storage_id: home_page-panels_variant-0
+  builder: ipe
+page: home_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

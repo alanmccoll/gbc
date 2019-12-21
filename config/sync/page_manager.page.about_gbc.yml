@@ -1,0 +1,12 @@
+uuid: 05acb856-64ba-4e7c-8c24-7d71f0814a3b
+langcode: en
+status: true
+dependencies: {  }
+id: about_gbc
+label: 'About GBC'
+description: ''
+use_admin_theme: false
+path: /about-gbc
+access_logic: and
+access_conditions: {  }
+parameters: {  }

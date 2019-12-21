@@ -1,0 +1,74 @@
+uuid: 780488af-ff12-403b-aa49-535d3ed0f7f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.comment
+    - field.field.comment.comment.comment_body
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          689b6915-090a-4a81-bb9f-ed230edf65b7:
+            uuid: 689b6915-090a-4a81-bb9f-ed230edf65b7
+            region: content
+            configuration:
+              id: 'field_block:comment:comment:comment_body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          1e40807c-97b2-4025-8a40-3bab679db44a:
+            uuid: 1e40807c-97b2-4025-8a40-3bab679db44a
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:comment:comment:links'
+            additional: {  }
+            weight: 1
+          269a9935-3969-4063-8fec-35c6165c1454:
+            uuid: 269a9935-3969-4063-8fec-35c6165c1454
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:comment:comment:links'
+            additional: {  }
+            weight: 2
+    enabled: true
+_core:
+  default_config_hash: 77Ye1kR-P6AaiGfEO8mnXNSr7nqtnP3PiiVBwJeGGMI
+id: comment.comment.default
+targetEntityType: comment
+bundle: comment
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

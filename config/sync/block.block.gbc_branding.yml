@@ -1,0 +1,25 @@
+uuid: a5ae4790-efb5-4ed7-b4d4-bd824772ac24
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gbc
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: gbc_branding
+theme: gbc
+region: navigation
+weight: -4
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: 74831ea5-0714-47c3-9bd5-9181b703901f
+langcode: en
+status: true
+dependencies: {  }
+id: prayer_letter
+label: 'Prayer Letter'
+description: 'a pdf prayer letter'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file_2
+field_map: {  }

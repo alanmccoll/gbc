@@ -1,0 +1,68 @@
+uuid: b2582847-b27a-4a7c-a43d-0991c1fb419d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.prayer_letter.field_letter_date
+    - field.field.media.prayer_letter.field_media_file_2
+    - image.style.thumbnail
+    - media.type.prayer_letter
+  module:
+    - datetime
+    - file
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: media.prayer_letter.default
+targetEntityType: media
+bundle: prayer_letter
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_letter_date:
+    weight: 7
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: date_short_dec_10_2018
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_media_file_2:
+    weight: 6
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  thumbnail:
+    type: image
+    weight: 5
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  name: true

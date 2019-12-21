@@ -1,0 +1,12 @@
+uuid: e7547adc-8949-45c2-9191-f78e44747dfc
+langcode: en
+status: true
+dependencies: {  }
+id: welcome_message_and_video
+label: 'Welcome Message and Video'
+description: ''
+use_admin_theme: false
+path: /welcome-message
+access_logic: and
+access_conditions: {  }
+parameters: {  }

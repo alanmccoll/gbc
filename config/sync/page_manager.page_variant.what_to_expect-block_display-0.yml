@@ -1,0 +1,21 @@
+uuid: b3440102-535e-4db2-9b1b-642e1816442c
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.what_to_expect
+id: what_to_expect-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks: {  }
+  id: block_display
+  uuid: 499f4dba-f4b8-432c-a583-24431771b0c4
+  label: null
+  weight: 0
+  page_title: 'What to Expect'
+page: what_to_expect
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,14 @@
+uuid: f0070320-33e1-4d73-b964-35a90d10c82c
+name: 'Goodwill Baptist Church'
+mail: alan@itrva.com
+slogan: '"Communicating Christ''s Compassion With a Needy World"'
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

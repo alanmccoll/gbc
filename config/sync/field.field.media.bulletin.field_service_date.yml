@@ -1,0 +1,21 @@
+uuid: 98d8c4e5-171d-48da-b565-6faa85e1c3f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_service_date
+    - media.type.bulletin
+  module:
+    - datetime
+id: media.bulletin.field_service_date
+field_name: field_service_date
+entity_type: media
+bundle: bulletin
+label: 'Service Date'
+description: 'date of the service'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

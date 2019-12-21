@@ -1,0 +1,12 @@
+uuid: e34c7e27-fc0f-4baf-96e5-724b44f4a49e
+langcode: en
+status: true
+dependencies: {  }
+id: sermon_page
+label: 'Sermon Page'
+description: ''
+use_admin_theme: false
+path: /sermons
+access_logic: and
+access_conditions: {  }
+parameters: {  }

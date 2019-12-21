@@ -1,0 +1,50 @@
+uuid: 3118c658-1f9a-4b39-84bb-a1a64b0c58db
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.sermon_page
+    - views.view.sermon_audio_list
+  content:
+    - 'block_content:basic:8d77e448-2cc8-4143-929f-bcc69fd0ca1c'
+  module:
+    - block_content
+    - views
+id: sermon_page-block_display-0
+label: 'Sermon Block'
+variant: block_display
+variant_settings:
+  blocks:
+    4a07a041-67f2-4895-ae90-68ee973b4ce8:
+      id: 'views_block:sermon_audio_list-block_1'
+      label: ''
+      provider: views
+      label_display: visible
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: -9
+      uuid: 4a07a041-67f2-4895-ae90-68ee973b4ce8
+      context_mapping: {  }
+    c7726fa9-d1e8-4143-b1ae-6cb88189f8cd:
+      id: 'block_content:8d77e448-2cc8-4143-929f-bcc69fd0ca1c'
+      label: 'Sermon intro'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -10
+      uuid: c7726fa9-d1e8-4143-b1ae-6cb88189f8cd
+      context_mapping: {  }
+  id: block_display
+  uuid: bff39a31-f7ab-41bf-9156-6982b8bbdb7a
+  label: null
+  weight: 0
+  page_title: 'Sermon Audio'
+page: sermon_page
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,68 @@
+uuid: e15acab3-ba4e-40e7-ba84-5a813b854851
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.bulletin.field_media_file_1
+    - field.field.media.bulletin.field_service_date
+    - image.style.thumbnail
+    - media.type.bulletin
+  module:
+    - datetime
+    - file
+    - image
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    sections: {  }
+id: media.bulletin.default
+targetEntityType: media
+bundle: bulletin
+mode: default
+content:
+  created:
+    label: hidden
+    type: timestamp
+    weight: 0
+    region: content
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_media_file_1:
+    weight: 6
+    label: above
+    settings:
+      use_description_as_link_text: false
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_service_date:
+    weight: 7
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  thumbnail:
+    type: image
+    weight: 5
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    region: content
+    third_party_settings: {  }
+  uid:
+    label: hidden
+    type: author
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  name: true

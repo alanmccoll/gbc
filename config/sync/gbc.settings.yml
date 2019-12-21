@@ -1,0 +1,36 @@
+cdn_provider: ''
+_core:
+  default_config_hash: _5qrDuRmWmRVjW00si3U1s1NrgrocA4N653EYGRfgEE
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://localhost/gbc/web/themes/contrib/gbc/favicon.ico'
+  use_default: false
+schemas:
+  bootstrap: 8000
+  gbc: 8000
+table_responsive: '-1'
+table: ''
+region_wells:
+  navigation: ''
+  navigation_collapsible: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: ''
+  footer: ''
+features:
+  comment_user_picture: false
+  comment_user_verification: false
+  favicon: false
+  node_user_picture: false
+fluid_container: 1
+logo:
+  path: 'public://GBC_LOGO_smaller_2_0.png'
+  url: ''
+  use_default: false
+navbar_inverse: 1
+breadcrumb_home: 1
+navbar_position: ''

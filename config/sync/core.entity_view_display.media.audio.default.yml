@@ -1,0 +1,47 @@
+uuid: d2134dbf-4a54-47a2-8b46-8e188fd7d5fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.audio.field_date_preached
+    - field.field.media.audio.field_media_audio_file
+    - media.type.audio
+  module:
+    - datetime
+    - file
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    sections: {  }
+_core:
+  default_config_hash: SWf3MLdbEKvlx4Vs6iPwDHu5pr1aKT0SJmgp8no73-k
+id: media.audio.default
+targetEntityType: media
+bundle: audio
+mode: default
+content:
+  field_date_preached:
+    weight: 1
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: date_short_dec_10_2018
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_media_audio_file:
+    type: file_audio
+    weight: 0
+    label: visually_hidden
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

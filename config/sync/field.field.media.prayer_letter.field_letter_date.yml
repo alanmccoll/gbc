@@ -1,0 +1,21 @@
+uuid: 288ba17a-84d3-44be-a592-9acb2e2968ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_letter_date
+    - media.type.prayer_letter
+  module:
+    - datetime
+id: media.prayer_letter.field_letter_date
+field_name: field_letter_date
+entity_type: media
+bundle: prayer_letter
+label: 'Letter Date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,20 @@
+uuid: 3da84c13-f705-48b5-ab1e-f8ef22a1d665
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - media
+id: media.field_date_preached
+field_name: field_date_preached
+entity_type: media
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

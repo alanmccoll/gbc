@@ -1,0 +1,18 @@
+bootstrap_simple_carousel:
+  interval: 3000
+  wrap: 1
+  pause: 1
+  indicators: 1
+  controls: 1
+  assets: 0
+  image_style: {  }
+_core:
+  default_config_hash: YC0ILElSxa0LGIYdJapy6kbXAEarXdwnMnT4-xG0ZuE
+interval: '8000'
+wrap: 1
+pause: 0
+indicators: 0
+controls: 1
+assets: 0
+image_style: carousel
+image_fluid: 0

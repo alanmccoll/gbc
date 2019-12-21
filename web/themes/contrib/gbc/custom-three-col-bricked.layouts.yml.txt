@@ -1,0 +1,45 @@
+# Three Column Bricked Custom
+ bs_3col_bricked:
+  label: 'Three column bricks custom'
+  category: 'Bootstrap'
+  class: '\Drupal\bootstrap_layouts\Plugin\Layout\BootstrapLayoutsBase'
+  type: partial
+  icon: images/3col-bricked.png
+  template: templates/bs-3col-bricked-custom
+  regions:
+    top:
+      label: 'Top'
+      classes:
+        - col-sm-12
+    top_left:
+      label: 'Top Left'
+      classes:
+        - col-sm-4
+    top_middle:
+      label: 'Top Middle'
+      classes:
+        - col-sm-4
+    top_right:
+      label: 'Top Right'
+      classes:
+        - col-sm-4
+    middle:
+      label: 'Middle'
+      classes:
+        - col-sm-12
+    bottom_left:
+      label: 'Bottom Left'
+      classes:
+        - col-sm-4
+    bottom_middle:
+      label: 'Bottom Middle'
+      classes:
+        - col-sm-4
+    bottom_right:
+      label: 'Bottom Right'
+      classes:
+        - col-sm-4
+    bottom:
+      label: 'Bottom'
+      classes:
+        - col-sm-12

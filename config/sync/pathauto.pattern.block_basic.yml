@@ -1,0 +1,14 @@
+uuid: 10cca794-8631-44e9-9230-15146f14ef43
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_basic
+label: 'block basic'
+type: 'canonical_entities:block_content'
+pattern: '[current-page:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

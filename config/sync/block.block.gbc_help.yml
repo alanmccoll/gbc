@@ -1,0 +1,22 @@
+uuid: 813dca4d-0acc-4680-b1ad-43a7f836e307
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gbc
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gbc_help
+theme: gbc
+region: content
+weight: -1
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

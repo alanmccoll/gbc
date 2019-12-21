@@ -1,0 +1,79 @@
+uuid: 4a175515-4b3a-4133-a6ac-86759070ed95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - layout_builder
+    - layout_discovery
+    - user
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          7bcf5aa6-c926-4020-8252-942493610015:
+            uuid: 7bcf5aa6-c926-4020-8252-942493610015
+            region: content
+            configuration:
+              id: 'field_block:user:user:user_picture'
+              label_display: ''
+              formatter:
+                type: image
+                settings:
+                  image_style: thumbnail
+                  image_link: content
+                third_party_settings: {  }
+                label: hidden
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          4df66647-769e-4f70-af02-e0060a39ca4b:
+            uuid: 4df66647-769e-4f70-af02-e0060a39ca4b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:user:user:member_for'
+            additional: {  }
+            weight: 1
+          1f021f07-dcf9-48cd-8d94-78930c2f784d:
+            uuid: 1f021f07-dcf9-48cd-8d94-78930c2f784d
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:user:user:member_for'
+            additional: {  }
+            weight: 2
+    enabled: true
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  member_for:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  user_picture:
+    type: image
+    weight: 0
+    region: content
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+    label: hidden
+hidden: {  }

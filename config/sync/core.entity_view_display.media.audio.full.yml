@@ -1,0 +1,189 @@
+uuid: 8ba6cbad-2fed-419a-a7d9-e26729e05dee
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.full
+    - field.field.media.audio.field_date_preached
+    - field.field.media.audio.field_media_audio_file
+    - media.type.audio
+  module:
+    - datetime
+    - file
+    - image
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          266feb65-da3a-4acd-bde8-a596eb54aa3b:
+            uuid: 266feb65-da3a-4acd-bde8-a596eb54aa3b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:media:audio:field_media_audio_file'
+              formatter:
+                type: file_audio
+                label: above
+                settings:
+                  controls: true
+                  autoplay: false
+                  loop: false
+                  multiple_file_display_type: tags
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
+          04c60f16-1d52-485a-8b48-81133835322d:
+            uuid: 04c60f16-1d52-485a-8b48-81133835322d
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:media:audio:field_date_preached'
+              formatter:
+                label: above
+                settings:
+                  timezone_override: ''
+                  format_type: date_short_dec_10_2018
+                third_party_settings: {  }
+                type: datetime_default
+            additional: {  }
+            weight: 1
+          98ab0272-f45a-4dfd-b303-f816907f2889:
+            uuid: 98ab0272-f45a-4dfd-b303-f816907f2889
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:media:audio:name'
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            additional: {  }
+            weight: 2
+          42de098f-a3d9-4d5d-99be-f8ad016c967a:
+            uuid: 42de098f-a3d9-4d5d-99be-f8ad016c967a
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:media:audio:thumbnail'
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+            additional: {  }
+            weight: 3
+          dfbdba89-1814-4cd1-9912-d8eb3153ccc2:
+            uuid: dfbdba89-1814-4cd1-9912-d8eb3153ccc2
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:media:audio:uid'
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 4
+          18788c5c-d476-42f3-aecd-fd8da417ac93:
+            uuid: 18788c5c-d476-42f3-aecd-fd8da417ac93
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:media:audio:created'
+              formatter:
+                type: timestamp
+                label: above
+                settings:
+                  date_format: medium
+                  custom_date_format: ''
+                  timezone: ''
+                third_party_settings: {  }
+            additional: {  }
+            weight: 5
+    allow_custom: false
+    enabled: true
+_core:
+  default_config_hash: SWf3MLdbEKvlx4Vs6iPwDHu5pr1aKT0SJmgp8no73-k
+id: media.audio.full
+targetEntityType: media
+bundle: audio
+mode: full
+content:
+  created:
+    type: timestamp
+    weight: 5
+    region: content
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+  field_date_preached:
+    weight: 1
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: date_short_dec_10_2018
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_media_audio_file:
+    type: file_audio
+    weight: 0
+    label: above
+    settings:
+      controls: true
+      autoplay: false
+      loop: false
+      multiple_file_display_type: tags
+    third_party_settings: {  }
+    region: content
+  name:
+    type: string
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  thumbnail:
+    type: image
+    weight: 3
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden: {  }

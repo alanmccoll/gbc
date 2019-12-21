@@ -1,0 +1,27 @@
+uuid: ddae6626-3fe6-4bc8-af8f-a4ca5345d070
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file_1
+    - media.type.bulletin
+  module:
+    - file
+id: media.bulletin.field_media_file_1
+field_name: field_media_file_1
+entity_type: media
+bundle: bulletin
+label: File
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_extensions: 'txt doc docx pdf'
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

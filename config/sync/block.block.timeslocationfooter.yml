@@ -1,0 +1,25 @@
+uuid: d92ff1d5-8198-492c-ac5b-e86988a1dd11
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e09f5702-9c2d-437b-802a-64cf66a7b420'
+  module:
+    - block_content
+  theme:
+    - gbc
+id: timeslocationfooter
+theme: gbc
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e09f5702-9c2d-437b-802a-64cf66a7b420'
+settings:
+  id: 'block_content:e09f5702-9c2d-437b-802a-64cf66a7b420'
+  label: 'Times Location Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

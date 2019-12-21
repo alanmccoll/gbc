@@ -1,0 +1,29 @@
+uuid: 028c3b74-d9b6-4773-8657-7bb4873e2734
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_audio_file
+    - media.type.audio
+  module:
+    - file
+_core:
+  default_config_hash: sI-7KvS4Qbg6EucALXjwYEotxgxUfH-bMC19yTpZ1kw
+id: media.audio.field_media_audio_file
+field_name: field_media_audio_file
+entity_type: media
+bundle: audio
+label: 'Audio file'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: mp3
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

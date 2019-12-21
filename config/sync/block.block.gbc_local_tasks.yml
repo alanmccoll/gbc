@@ -1,0 +1,22 @@
+uuid: d3101f33-9b29-4524-ae21-39bc458c63d6
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gbc
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gbc_local_tasks
+theme: gbc
+region: content
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

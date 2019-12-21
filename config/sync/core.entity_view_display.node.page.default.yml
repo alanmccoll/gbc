@@ -1,0 +1,75 @@
+uuid: 4c5f353d-20e3-4f0b-b9f0-0ee32e7dae3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - node.type.page
+  module:
+    - layout_builder
+    - layout_discovery
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          cd7f807a-aaa5-4351-bd0a-717fabd5b7c3:
+            uuid: cd7f807a-aaa5-4351-bd0a-717fabd5b7c3
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: ''
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+            additional: {  }
+            weight: 0
+          3851bf1f-0548-4f74-81b4-50aaef9f27d4:
+            uuid: 3851bf1f-0548-4f74-81b4-50aaef9f27d4
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:page:links'
+            additional: {  }
+            weight: 1
+          427e417f-cb2d-4e30-99aa-a38783875b27:
+            uuid: 427e417f-cb2d-4e30-99aa-a38783875b27
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:page:links'
+            additional: {  }
+            weight: 2
+    enabled: true
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 101
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,50 @@
+uuid: e3ee8f60-ef85-423c-b758-6a24406d9656
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.bulletins
+    - views.view.bulletins
+  content:
+    - 'block_content:basic:8f1cd837-07fa-4db3-9c1d-d1ffac106c9c'
+  module:
+    - block_content
+    - views
+id: bulletins-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    cfbbbe69-f0e2-4165-bacd-31c5e2e0af8a:
+      id: 'views_block:bulletins-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: bottom
+      weight: 0
+      uuid: cfbbbe69-f0e2-4165-bacd-31c5e2e0af8a
+      context_mapping: {  }
+    a7342ff9-0813-430a-bd9f-67bfdfd8de88:
+      id: 'block_content:8f1cd837-07fa-4db3-9c1d-d1ffac106c9c'
+      label: 'Weekly Bulletins'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: 0
+      uuid: a7342ff9-0813-430a-bd9f-67bfdfd8de88
+      context_mapping: {  }
+  id: block_display
+  uuid: 93859f53-4fa7-42bc-b2c5-6e7298c61739
+  label: null
+  weight: 0
+  page_title: 'Weekly Bulletins'
+page: bulletins
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

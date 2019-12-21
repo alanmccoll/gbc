@@ -1,0 +1,12 @@
+uuid: 49f3e023-530d-4d62-bc76-f9ea0e18695f
+langcode: en
+status: true
+dependencies: {  }
+id: t
+label: 'Times and Location'
+description: ''
+use_admin_theme: false
+path: /times-location
+access_logic: and
+access_conditions: {  }
+parameters: {  }

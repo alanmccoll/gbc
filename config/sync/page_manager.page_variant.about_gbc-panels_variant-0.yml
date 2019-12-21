@@ -1,0 +1,100 @@
+uuid: a0b13698-205b-4a66-9ebf-72b1b8da3939
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.about_gbc
+  content:
+    - 'block_content:basic:0b21e265-d62b-4491-a769-598c269fb542'
+    - 'block_content:basic:3ce9b174-014e-4d72-bade-7edbedce14f8'
+    - 'block_content:basic:f8e1af57-2076-4a85-a556-e6175f1d9e18'
+  module:
+    - block_content
+    - panels
+id: about_gbc-panels_variant-0
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    24f14ee4-ffbb-4e36-969a-4a7f4501c06d:
+      id: 'block_content:0b21e265-d62b-4491-a769-598c269fb542'
+      label: 'About GBC'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: 1
+      uuid: 24f14ee4-ffbb-4e36-969a-4a7f4501c06d
+      context_mapping: {  }
+    3639e0e6-da59-4770-b9aa-4036eb338b3e:
+      id: 'block_content:f8e1af57-2076-4a85-a556-e6175f1d9e18'
+      label: 'Statement of Faith'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: left
+      weight: 1
+      uuid: 3639e0e6-da59-4770-b9aa-4036eb338b3e
+      context_mapping: {  }
+    35cadd72-ff1d-4c4c-893b-71c8ea870481:
+      id: 'block_content:3ce9b174-014e-4d72-bade-7edbedce14f8'
+      label: 'Mission and Vision'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: right
+      weight: 1
+      uuid: 35cadd72-ff1d-4c4c-893b-71c8ea870481
+      context_mapping: {  }
+  id: panels_variant
+  uuid: d74cd00e-e692-4f57-848b-61f7f52ae3a7
+  label: null
+  weight: 0
+  layout: bs_2col_stacked
+  layout_settings:
+    layout:
+      wrapper: div
+      classes:
+        row: row
+      add_layout_class: 1
+      attributes: ''
+    regions:
+      top:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+      left:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      right:
+        wrapper: div
+        classes:
+          col-sm-6: col-sm-6
+        add_region_classes: 1
+        attributes: ''
+      bottom:
+        wrapper: div
+        classes:
+          col-sm-12: col-sm-12
+        add_region_classes: 1
+        attributes: ''
+  page_title: null
+  storage_type: page_manager
+  storage_id: about_gbc-panels_variant-0
+  builder: ipe
+page: about_gbc
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

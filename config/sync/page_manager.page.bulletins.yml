@@ -1,0 +1,12 @@
+uuid: 2f21acc5-a646-48ef-8ad1-962690d4d651
+langcode: en
+status: true
+dependencies: {  }
+id: bulletins
+label: Bulletins
+description: ''
+use_admin_theme: false
+path: /bulletins
+access_logic: and
+access_conditions: {  }
+parameters: {  }
