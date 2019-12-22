@@ -58,6 +58,7 @@ class ItemsForm extends FormBase {
 
     $query = $this->connection->select('bootstrap_simple_carousel', 'u');
     $query->fields('u');
+    $query->orderBy('weight', 'DESC');
     $items = $query->execute()->fetchAll();
 
     $header = [
@@ -66,6 +67,7 @@ class ItemsForm extends FormBase {
       'caption_title' => $this->t('Caption title'),
       'caption_text' => $this->t('Caption text'),
       'status' => $this->t('Status'),
+      'weight' => $this->t('Weight'),
       'edit' => $this->t('Edit'),
       'delete' => $this->t('Delete'),
     ];
@@ -85,6 +87,7 @@ class ItemsForm extends FormBase {
           'caption_title' => $item->caption_title,
           'caption_text' => $item->caption_text,
           'status' => CarouselService::getInstance()->getStatuses()[(bool) $item->status],
+          'weight' => $item->weight,
           'edit' => CarouselService::getInstance()->renderLink(
             Url::fromRoute('bootstrap_simple_carousel.edit', ['id' => $item->cid]),
             $this->t('edit')

@@ -124,6 +124,12 @@ class EditForm extends FormBase {
       '#options' => CarouselService::getInstance()->getStatuses(),
       '#default_value' => !empty($result->status) ? $result->status : '',
     ];
+    $form['weight'] = [
+      '#type' => 'number',
+      '#title' => ('Weight'),
+      '#required' => FALSE,
+      '#default_value' => !empty($result->weight) ? $result->weight : 0,
+    ];
     $form['actions']['#type'] = 'actions';
     $form['actions']['submit'] = [
       '#type' => 'submit',
@@ -140,6 +146,9 @@ class EditForm extends FormBase {
     if (!in_array($form_state->getValue('status'), [0, 1])) {
       $form_state->setErrorByName('status', $this->t('Status is incorrect.'));
     }
+    if ($form_state->getValue('weight') < 0) {
+      $form_state->setErrorByName('status', $this->t('Weight must be zero or greater than zero.'));
+    }
   }
 
   /**
@@ -152,6 +161,7 @@ class EditForm extends FormBase {
       'caption_title' => $form_state->getValue('caption_title'),
       'caption_text' => $form_state->getValue('caption_text'),
       'status' => $form_state->getValue('status'),
+      'weight' => $form_state->getValue('weight'),
     ];
 
     if (!empty($form_state->getValue('image'))) {
@@ -173,7 +183,7 @@ class EditForm extends FormBase {
       ->execute();
 
     $message = !empty($result) ? $this->t('Item successfully saved!') : $this->t('Record was not saved!');
-    drupal_set_message($message);
+    $this->messenger()->addMessage($message);
 
     $form_state->setRedirect('bootstrap_simple_carousel.table');
   }

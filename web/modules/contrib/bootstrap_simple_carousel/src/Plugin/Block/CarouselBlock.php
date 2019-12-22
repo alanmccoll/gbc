@@ -119,6 +119,7 @@ class CarouselBlock extends BlockBase implements ContainerFactoryPluginInterface
     $query = $this->connection->select('bootstrap_simple_carousel', 'u');
     $query->fields('u');
     $query->condition('status', 1);
+    $query->orderBy('weight', 'DESC');
     $items = $query->execute()->fetchAll();
 
     if (!empty($items)) {

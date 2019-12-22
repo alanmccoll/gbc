@@ -107,7 +107,7 @@ class DeleteForm extends ConfirmFormBase {
     }
 
     $message = !empty($result) ? t('Item has been removed!') : t('Item was not removed!');
-    drupal_set_message($message);
+    $this->messenger()->addMessage($message);
 
     $form_state->setRedirect('bootstrap_simple_carousel.table');
   }

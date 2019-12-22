@@ -3,8 +3,7 @@ type: module
 description: 'Provide a bootstrap carousel.'
 package: Media
 
-type: module
-# core: 8.x
+core: 8.x
 
 dependencies:
   - drupal:image
@@ -14,8 +13,7 @@ configure: bootstrap_simple_carousel.admin_settings
 
 php: 7.0
 
-# Information added by Drupal.org packaging script on 2018-09-21
-version: '8.x-1.2'
-core: '8.x'
+# Information added by Drupal.org packaging script on 2019-12-11
+version: '8.x-1.31'
 project: 'bootstrap_simple_carousel'
-datestamp: 1537536999
+datestamp: 1576053891
