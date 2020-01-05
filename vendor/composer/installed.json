@@ -67,29 +67,29 @@
     },
     {
         "name": "asm89/stack-cors",
-        "version": "1.2.0",
-        "version_normalized": "1.2.0.0",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/asm89/stack-cors.git",
-            "reference": "c163e2b614550aedcf71165db2473d936abbced6"
+            "reference": "b9c31def6a83f84b4d4a40d35996d375755f0e08"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/asm89/stack-cors/zipball/c163e2b614550aedcf71165db2473d936abbced6",
-            "reference": "c163e2b614550aedcf71165db2473d936abbced6",
+            "url": "https://api.github.com/repos/asm89/stack-cors/zipball/b9c31def6a83f84b4d4a40d35996d375755f0e08",
+            "reference": "b9c31def6a83f84b4d4a40d35996d375755f0e08",
             "shasum": ""
         },
         "require": {
             "php": ">=5.5.9",
-            "symfony/http-foundation": "~2.7|~3.0|~4.0",
-            "symfony/http-kernel": "~2.7|~3.0|~4.0"
+            "symfony/http-foundation": "~2.7|~3.0|~4.0|~5.0",
+            "symfony/http-kernel": "~2.7|~3.0|~4.0|~5.0"
         },
         "require-dev": {
             "phpunit/phpunit": "^5.0 || ^4.8.10",
             "squizlabs/php_codesniffer": "^2.3"
         },
-        "time": "2017-12-20T14:37:45+00:00",
+        "time": "2019-12-24T22:41:47+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2407,32 +2407,30 @@
     },
     {
         "name": "doctrine/lexer",
-        "version": "1.2.0",
-        "version_normalized": "1.2.0.0",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/doctrine/lexer.git",
-            "reference": "5242d66dbeb21a30dd8a3e66bf7a73b66e05e1f6"
+            "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/doctrine/lexer/zipball/5242d66dbeb21a30dd8a3e66bf7a73b66e05e1f6",
-            "reference": "5242d66dbeb21a30dd8a3e66bf7a73b66e05e1f6",
+            "url": "https://api.github.com/repos/doctrine/lexer/zipball/1febd6c3ef84253d7c815bed85fc622ad207a9f8",
+            "reference": "1febd6c3ef84253d7c815bed85fc622ad207a9f8",
             "shasum": ""
         },
         "require": {
-            "php": "^7.2"
+            "php": ">=5.3.2"
         },
         "require-dev": {
-            "doctrine/coding-standard": "^6.0",
-            "phpstan/phpstan": "^0.11.8",
-            "phpunit/phpunit": "^8.2"
+            "phpunit/phpunit": "^4.5"
         },
-        "time": "2019-10-30T14:39:59+00:00",
+        "time": "2019-06-08T11:03:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.2.x-dev"
+                "dev-master": "1.0.x-dev"
             }
         },
         "installation-source": "dist",
@@ -2447,12 +2445,12 @@
         ],
         "authors": [
             {
-                "name": "Guilherme Blanco",
-                "email": "guilhermeblanco@gmail.com"
-            },
-            {
                 "name": "Roman Borschel",
                 "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
             },
             {
                 "name": "Johannes Schmitt",
@@ -2863,7 +2861,7 @@
         "description": "This module is going to generate layouts with Bootstrap grid system.",
         "homepage": "https://www.drupal.org/project/bootstrap_layouts",
         "support": {
-            "source": "http://cgit.drupalcode.org/bootstrap_layouts"
+            "source": "https://git.drupalcode.org/project/bootstrap_layouts"
         }
     },
     {
@@ -3670,7 +3668,7 @@
         "description": "Provides improvements to blocks that will one day be added to Drupal core.",
         "homepage": "https://www.drupal.org/project/ctools",
         "support": {
-            "source": "http://cgit.drupalcode.org/ctools"
+            "source": "https://git.drupalcode.org/project/ctools"
         }
     },
     {
@@ -3748,7 +3746,68 @@
         "description": "A set of improvements to the core Views code that allows for greater control over Blocks.",
         "homepage": "https://www.drupal.org/project/ctools",
         "support": {
-            "source": "http://cgit.drupalcode.org/ctools"
+            "source": "https://git.drupalcode.org/project/ctools"
+        }
+    },
+    {
+        "name": "drupal/dynamic_entity_reference",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/dynamic_entity_reference.git",
+            "reference": "8.x-1.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/dynamic_entity_reference-8.x-1.8.zip",
+            "reference": "8.x-1.8",
+            "shasum": "97c6f9fb0652343eab24443e8e4ed9a33037db53"
+        },
+        "require": {
+            "drupal/core": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.8",
+                "datestamp": "1575458288",
+                "security-coverage": {
+                    "status": "covered",
+                    "message": "Covered by Drupal's security advisory policy"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Lee Rowlands",
+                "homepage": "https://www.drupal.org/u/larowlan",
+                "role": "Maintainer"
+            },
+            {
+                "name": "Jibran Ijaz",
+                "homepage": "https://www.drupal.org/u/jibran",
+                "role": "Maintainer"
+            },
+            {
+                "name": "larowlan",
+                "homepage": "https://www.drupal.org/user/395439"
+            }
+        ],
+        "description": "Provides a field that allows an entity-reference field to reference more than one entity type.",
+        "homepage": "http://drupal.org/project/dynamic_entity_reference",
+        "support": {
+            "source": "http://cgit.drupalcode.org/dynamic_entity_reference",
+            "issues": "http://drupal.org/project/dynamic_entity_reference",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
         }
     },
     {
@@ -3856,6 +3915,10 @@
         ],
         "authors": [
             {
+                "name": "thalles",
+                "homepage": "https://www.drupal.org/user/3589086"
+            },
+            {
                 "name": "ufku",
                 "homepage": "https://www.drupal.org/user/9910"
             }
@@ -3863,7 +3926,95 @@
         "description": "Provides a file manager supporting personal folders.",
         "homepage": "https://drupal.org/project/imce",
         "support": {
-            "source": "http://cgit.drupalcode.org/imce"
+            "source": "https://git.drupalcode.org/project/imce"
+        }
+    },
+    {
+        "name": "drupal/inline_entity_form",
+        "version": "1.0.0-rc2",
+        "version_normalized": "1.0.0.0-RC2",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/inline_entity_form.git",
+            "reference": "8.x-1.0-rc2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/inline_entity_form-8.x-1.0-rc2.zip",
+            "reference": "8.x-1.0-rc2",
+            "shasum": "f56c071ef499c20f0b1d63fa1ea30f06248ee0a4"
+        },
+        "require": {
+            "drupal/core": "^8.5"
+        },
+        "require-dev": {
+            "drupal/entity_reference_revisions": "*"
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-rc2",
+                "datestamp": "1568446684",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "RC releases are not covered by Drupal security advisories."
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "bojanz",
+                "homepage": "https://www.drupal.org/user/86106"
+            },
+            {
+                "name": "dawehner",
+                "homepage": "https://www.drupal.org/user/99340"
+            },
+            {
+                "name": "geek.merlin aka axel.rutz",
+                "homepage": "https://www.drupal.org/user/229048"
+            },
+            {
+                "name": "joachim",
+                "homepage": "https://www.drupal.org/user/107701"
+            },
+            {
+                "name": "jsacksick",
+                "homepage": "https://www.drupal.org/user/972218"
+            },
+            {
+                "name": "kaythay",
+                "homepage": "https://www.drupal.org/user/2182186"
+            },
+            {
+                "name": "oknate",
+                "homepage": "https://www.drupal.org/user/471638"
+            },
+            {
+                "name": "rszrama",
+                "homepage": "https://www.drupal.org/user/49344"
+            },
+            {
+                "name": "slashrsm",
+                "homepage": "https://www.drupal.org/user/744628"
+            },
+            {
+                "name": "webflo",
+                "homepage": "https://www.drupal.org/user/254778"
+            }
+        ],
+        "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
+        "homepage": "https://www.drupal.org/project/inline_entity_form",
+        "support": {
+            "source": "https://git.drupalcode.org/project/inline_entity_form"
         }
     },
     {
@@ -3892,7 +4043,7 @@
             },
             "drupal": {
                 "version": "8.x-4.0-beta3",
-                "datestamp": "1523670484",
+                "datestamp": "1559135889",
                 "security-coverage": {
                     "status": "not-covered",
                     "message": "Project has not opted into security advisory coverage!"
@@ -3919,8 +4070,8 @@
                 "homepage": "https://www.drupal.org/user/45640"
             },
             {
-                "name": "tim.plunkett",
-                "homepage": "https://www.drupal.org/user/241634"
+                "name": "manuel.adan",
+                "homepage": "https://www.drupal.org/user/516420"
             }
         ],
         "description": "Provides a way to place blocks on a custom page.",
@@ -3946,7 +4097,7 @@
             },
             "drupal": {
                 "version": "8.x-4.0-beta3",
-                "datestamp": "1523670484",
+                "datestamp": "1559135889",
                 "security-coverage": {
                     "status": "not-covered",
                     "message": "Project has not opted into security advisory coverage!"
@@ -3971,14 +4122,14 @@
                 "homepage": "https://www.drupal.org/user/45640"
             },
             {
-                "name": "tim.plunkett",
-                "homepage": "https://www.drupal.org/user/241634"
+                "name": "manuel.adan",
+                "homepage": "https://www.drupal.org/user/516420"
             }
         ],
         "description": "Provides a simple UI for Page Manager.",
         "homepage": "https://www.drupal.org/project/page_manager",
         "support": {
-            "source": "http://cgit.drupalcode.org/page_manager"
+            "source": "https://git.drupalcode.org/project/page_manager"
         }
     },
     {
@@ -4245,6 +4396,10 @@
                 "homepage": "https://www.drupal.org/user/752140"
             },
             {
+                "name": "gisle",
+                "homepage": "https://www.drupal.org/user/409554"
+            },
+            {
                 "name": "ikit-claw",
                 "homepage": "https://www.drupal.org/user/3285813"
             },
@@ -4256,26 +4411,26 @@
         "description": "Allows site builders and administrator to view a module's README file.",
         "homepage": "https://www.drupal.org/project/readme",
         "support": {
-            "source": "http://cgit.drupalcode.org/readme"
+            "source": "https://git.drupalcode.org/project/readme"
         }
     },
     {
         "name": "drupal/token",
-        "version": "1.5.0",
-        "version_normalized": "1.5.0.0",
+        "version": "1.6.0",
+        "version_normalized": "1.6.0.0",
         "source": {
             "type": "git",
             "url": "https://git.drupalcode.org/project/token.git",
-            "reference": "8.x-1.5"
+            "reference": "8.x-1.6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://ftp.drupal.org/files/projects/token-8.x-1.5.zip",
-            "reference": "8.x-1.5",
-            "shasum": "6382a7e1aabbd8246f1117a26bf4916d285b401d"
+            "url": "https://ftp.drupal.org/files/projects/token-8.x-1.6.zip",
+            "reference": "8.x-1.6",
+            "shasum": "22039a3d927220609e708932ac5c501b90ca4925"
         },
         "require": {
-            "drupal/core": "^8.5"
+            "drupal/core": "^8.7.7 || ^9"
         },
         "type": "drupal-module",
         "extra": {
@@ -4283,18 +4438,23 @@
                 "dev-1.x": "1.x-dev"
             },
             "drupal": {
-                "version": "8.x-1.5",
-                "datestamp": "1537557481",
+                "version": "8.x-1.6",
+                "datestamp": "1577708583",
                 "security-coverage": {
                     "status": "covered",
                     "message": "Covered by Drupal's security advisory policy"
+                }
+            },
+            "drush": {
+                "services": {
+                    "drush.services.yml": "^9 || ^10"
                 }
             }
         },
         "installation-source": "dist",
         "notification-url": "https://packages.drupal.org/8/downloads",
         "license": [
-            "GPL-2.0-or-later"
+            "GPL-2.0+"
         ],
         "authors": [
             {
@@ -4322,10 +4482,79 @@
                 "homepage": "https://www.drupal.org/user/4420"
             }
         ],
-        "description": "Provides a user interface for the Token API and some missing core tokens.",
+        "description": "Provides a user interface for the Token API, some missing core tokens.",
         "homepage": "https://www.drupal.org/project/token",
         "support": {
-            "source": "http://cgit.drupalcode.org/token"
+            "source": "https://git.drupalcode.org/project/token"
+        }
+    },
+    {
+        "name": "drupal/transaction",
+        "version": "1.0.0-alpha4",
+        "version_normalized": "1.0.0.0-alpha4",
+        "source": {
+            "type": "git",
+            "url": "https://git.drupalcode.org/project/transaction.git",
+            "reference": "8.x-1.0-alpha4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://ftp.drupal.org/files/projects/transaction-8.x-1.0-alpha4.zip",
+            "reference": "8.x-1.0-alpha4",
+            "shasum": "c2c81054ee26ef418a84b8a75c6d6bb5ff25d965"
+        },
+        "require": {
+            "drupal/core": "^8",
+            "drupal/dynamic_entity_reference": "^1.0"
+        },
+        "require-dev": {
+            "drupal/inline_entity_form": "*"
+        },
+        "suggest": {
+            "drupal/transaction_workflow": "Light weight multipurpose workflow manager for any entity type.",
+            "drupal/userpoints": "Provides a point system for users, letting to gain or lose points for performing certain actions on your site."
+        },
+        "type": "drupal-module",
+        "extra": {
+            "branch-alias": {
+                "dev-1.x": "1.x-dev"
+            },
+            "drupal": {
+                "version": "8.x-1.0-alpha4",
+                "datestamp": "1547845380",
+                "security-coverage": {
+                    "status": "not-covered",
+                    "message": "Project has not opted into security advisory coverage!"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packages.drupal.org/8/downloads",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "Manuel Adan (manuel.adan)",
+                "homepage": "https://www.drupal.org/u/manueladan",
+                "role": "Maintainer"
+            },
+            {
+                "name": "See other contributors",
+                "homepage": "https://www.drupal.org/node/295403/committers"
+            }
+        ],
+        "description": "Transactional operations over entities.",
+        "homepage": "https://www.drupal.org/project/transaction",
+        "keywords": [
+            "Drupal",
+            "accounting",
+            "transaction"
+        ],
+        "support": {
+            "source": "http://cgit.drupalcode.org/transaction",
+            "issues": "https://www.drupal.org/project/issues/transaction",
+            "irc": "irc://irc.freenode.org/drupal-contribute"
         }
     },
     {
@@ -4545,33 +4774,32 @@
     },
     {
         "name": "egulias/email-validator",
-        "version": "2.1.12",
-        "version_normalized": "2.1.12.0",
+        "version": "2.1.13",
+        "version_normalized": "2.1.13.0",
         "source": {
             "type": "git",
             "url": "https://github.com/egulias/EmailValidator.git",
-            "reference": "a6255605af39f2db7f5cb62e672bd8a7bad8d208"
+            "reference": "834593d5900615639208417760ba6a17299e2497"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/a6255605af39f2db7f5cb62e672bd8a7bad8d208",
-            "reference": "a6255605af39f2db7f5cb62e672bd8a7bad8d208",
+            "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/834593d5900615639208417760ba6a17299e2497",
+            "reference": "834593d5900615639208417760ba6a17299e2497",
             "shasum": ""
         },
         "require": {
             "doctrine/lexer": "^1.0.1",
-            "php": ">= 5.5"
+            "php": ">=5.5"
         },
         "require-dev": {
-            "dominicsayers/isemail": "dev-master",
-            "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
-            "satooshi/php-coveralls": "^1.0.1",
-            "symfony/phpunit-bridge": "^4.4@dev"
+            "dominicsayers/isemail": "^3.0.7",
+            "phpunit/phpunit": "^4.8.36|^7.5.15",
+            "satooshi/php-coveralls": "^1.0.1"
         },
         "suggest": {
             "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
         },
-        "time": "2019-12-20T12:49:39+00:00",
+        "time": "2019-12-30T08:14:25+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -4761,17 +4989,17 @@
     },
     {
         "name": "guzzlehttp/guzzle",
-        "version": "6.5.1",
-        "version_normalized": "6.5.1.0",
+        "version": "6.5.2",
+        "version_normalized": "6.5.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/guzzle/guzzle.git",
-            "reference": "0274c05370a7bc9bb3a33838858253418bd7d14b"
+            "reference": "43ece0e75098b7ecd8d13918293029e555a50f82"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/0274c05370a7bc9bb3a33838858253418bd7d14b",
-            "reference": "0274c05370a7bc9bb3a33838858253418bd7d14b",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/43ece0e75098b7ecd8d13918293029e555a50f82",
+            "reference": "43ece0e75098b7ecd8d13918293029e555a50f82",
             "shasum": ""
         },
         "require": {
@@ -4789,7 +5017,7 @@
             "ext-intl": "Required for Internationalized Domain Name (IDN) support",
             "psr/log": "Required for using the Log middleware"
         },
-        "time": "2019-12-21T08:51:15+00:00",
+        "time": "2019-12-23T11:57:10+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6064,17 +6292,17 @@
     },
     {
         "name": "phpdocumentor/reflection-docblock",
-        "version": "4.3.3",
-        "version_normalized": "4.3.3.0",
+        "version": "4.3.4",
+        "version_normalized": "4.3.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-            "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62"
+            "reference": "da3fd972d6bafd628114f7e7e036f45944b62e9c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
-            "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
+            "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/da3fd972d6bafd628114f7e7e036f45944b62e9c",
+            "reference": "da3fd972d6bafd628114f7e7e036f45944b62e9c",
             "shasum": ""
         },
         "require": {
@@ -6086,9 +6314,10 @@
         "require-dev": {
             "doctrine/instantiator": "^1.0.5",
             "mockery/mockery": "^1.0",
+            "phpdocumentor/type-resolver": "0.4.*",
             "phpunit/phpunit": "^6.4"
         },
-        "time": "2019-12-20T13:40:23+00:00",
+        "time": "2019-12-28T18:55:12+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -6166,17 +6395,17 @@
     },
     {
         "name": "phpspec/prophecy",
-        "version": "1.10.0",
-        "version_normalized": "1.10.0.0",
+        "version": "1.10.1",
+        "version_normalized": "1.10.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phpspec/prophecy.git",
-            "reference": "d638ebbb58daba25a6a0dc7969e1358a0e3c6682"
+            "reference": "cbe1df668b3fe136bcc909126a0f529a78d4cbbc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phpspec/prophecy/zipball/d638ebbb58daba25a6a0dc7969e1358a0e3c6682",
-            "reference": "d638ebbb58daba25a6a0dc7969e1358a0e3c6682",
+            "url": "https://api.github.com/repos/phpspec/prophecy/zipball/cbe1df668b3fe136bcc909126a0f529a78d4cbbc",
+            "reference": "cbe1df668b3fe136bcc909126a0f529a78d4cbbc",
             "shasum": ""
         },
         "require": {
@@ -6190,7 +6419,7 @@
             "phpspec/phpspec": "^2.5 || ^3.2",
             "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
         },
-        "time": "2019-12-17T16:54:23+00:00",
+        "time": "2019-12-22T21:05:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
