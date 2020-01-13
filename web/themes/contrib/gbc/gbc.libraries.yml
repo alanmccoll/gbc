@@ -19,3 +19,4 @@ framework:
     bootstrap/javascripts/bootstrap.js: {}
     bootstrap/javascripts/bootstrap.min.js: {}
     bootstrap/javascripts/bibletagger.js: {}
+    bootstrap/javascripts/hide_empty_div.js: {}
