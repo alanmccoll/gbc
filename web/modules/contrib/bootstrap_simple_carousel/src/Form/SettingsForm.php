@@ -16,6 +16,9 @@ use Drupal\image\Entity\ImageStyle;
 class SettingsForm extends ConfigFormBase {
 
   const ORIGINAL_IMAGE_STYLE_ID = 'original';
+  const DEFAULT_IMAGE_TYPE_ID = 'img-default';
+  const FLUID_IMAGE_TYPE_ID = 'img-fluid';
+  const CIRCLE_IMAGE_TYPE_ID = 'img-circle';
 
   /**
    * {@inheritdoc}
@@ -79,11 +82,12 @@ class SettingsForm extends ConfigFormBase {
       '#default_value' => $config->get('assets'),
     ];
 
-    $form['image_fluid'] = [
-      '#type' => 'checkbox',
-      '#title' => $this->t('Image fluid'),
-      '#description' => $this->t("Adds to image the bootstrap img-fluid class."),
-      '#default_value' => $config->get('image_fluid'),
+    $form['image_type'] = [
+      '#type' => 'select',
+      '#title' => $this->t('Bootstrap image type'),
+      '#description' => $this->t('Bootstrap image type for carousel items.'),
+      '#options' => $this->getImagesTypes(),
+      '#default_value' => $config->get('image_type'),
     ];
 
     $form['image_style'] = [
@@ -117,6 +121,22 @@ class SettingsForm extends ConfigFormBase {
   }
 
   /**
+   * Return bootstrap images types.
+   *
+   * @return array
+   *   Image types list
+   */
+  protected function getImagesTypes() {
+    $options = [
+      static::DEFAULT_IMAGE_TYPE_ID => $this->t('Image none'),
+      static::FLUID_IMAGE_TYPE_ID => $this->t('Image fluid'),
+      static::CIRCLE_IMAGE_TYPE_ID => $this->t('Image circle'),
+    ];
+
+    return $options;
+  }
+
+  /**
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
@@ -127,7 +147,7 @@ class SettingsForm extends ConfigFormBase {
       ->set('indicators', $form_state->getValue('indicators'))
       ->set('controls', $form_state->getValue('controls'))
       ->set('assets', $form_state->getValue('assets'))
-      ->set('image_fluid', $form_state->getValue('image_fluid'))
+      ->set('image_type', $form_state->getValue('image_type'))
       ->set('image_style', $form_state->getValue('image_style'))
       ->save();
 

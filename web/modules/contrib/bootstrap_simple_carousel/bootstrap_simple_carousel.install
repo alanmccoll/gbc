@@ -1,6 +1,7 @@
 <?php
 
 use Drupal\Core\Database\Database;
+use Drupal\bootstrap_simple_carousel\Form\SettingsForm;
 
 /**
  * @file
@@ -31,6 +32,12 @@ function bootstrap_simple_carousel_schema() {
         'default' => '',
       ],
       'image_title' => [
+        'type' => 'varchar_ascii',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ],
+      'image_link' => [
         'type' => 'varchar_ascii',
         'length' => 255,
         'not null' => TRUE,
@@ -81,4 +88,28 @@ function bootstrap_simple_carousel_update_8300() {
 
   $schema = Database::getConnection()->schema();
   $schema->addField('bootstrap_simple_carousel', 'weight', $weight);
+}
+
+/**
+ * Add a weight field to {bootstrap_simple_carousel} table.
+ */
+function bootstrap_simple_carousel_update_8400() {
+  $image_link = array(
+    'type' => 'varchar_ascii',
+    'length' => 255,
+    'not null' => TRUE,
+    'default' => '',
+  );
+
+  $schema = Database::getConnection()->schema();
+  $schema->addField('bootstrap_simple_carousel', 'image_link', $image_link);
+
+  $config_factory = \Drupal::configFactory();
+  $config = $config_factory->getEditable('bootstrap_simple_carousel.settings');
+  $image_fluid = $config->get('image_fluid');
+  if ($image_fluid) {
+    $config
+      ->set('image_type', SettingsForm::FLUID_IMAGE_TYPE_ID)
+      ->save(TRUE);
+  }
 }

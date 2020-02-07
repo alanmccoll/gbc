@@ -36,12 +36,18 @@
             <div class="carousel-inner">
                 {% for item in items %}
                     <div class="carousel-item item{{ loop.first ? ' active' : '' }}">
-                        <img
-                                src="{{ item.image_url }}"
-                                class="carousel-image{% if settings.get('image_fluid')  %} img-fluid{% endif %}"
-                                alt="{{ item.image_alt }}"
-                                title="{{ item.image_title }}"
-                        >
+                        {% if item.image_link is not empty %}
+                            <a href="{{ item.image_link }}">
+                        {% endif %}
+                            <img
+                                    src="{{ item.image_url }}"
+                                    class="carousel-image {{ settings.get('image_type') }}"
+                                    alt="{{ item.image_alt }}"
+                                    title="{{ item.image_title }}"
+                            >
+                        {% if item.image_link is not empty %}
+                            </a>
+                        {% endif %}
                         <div class="carousel-caption">
                             {% if item.caption_title  %}<h3> {{ item.caption_title }} </h3>{% endif %}
                             {% if item.caption_text  %}<p> {{ item.caption_text }} </p>{% endif %}

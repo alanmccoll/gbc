@@ -9,6 +9,7 @@ use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Database\Connection;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Session\AccountInterface;
+use Drupal\Core\Url;
 use Drupal\image\Entity\ImageStyle;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
@@ -132,6 +133,16 @@ class CarouselBlock extends BlockBase implements ContainerFactoryPluginInterface
         else {
           $item->image_url = file_url_transform_relative(ImageStyle::load($image_style)
             ->buildUrl($file->getFileUri()));
+        }
+        if (!empty($item->image_link)) {
+          $uri = parse_url($item->image_link);
+          if (empty($uri['host'])) {
+            if (strpos($item->image_link, '/') !== 0) {
+              $item->image_link = '/' . $item->image_link;
+            }
+            $item->image_link = 'internal:' . $item->image_link;
+          }
+          $item->image_link = Url::fromUri($item->image_link);
         }
       }
     }

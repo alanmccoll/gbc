@@ -23,6 +23,9 @@ bootstrap_simple_carousel.settings:
         assets:
           type: integer
           label: 'Assets:'
+        image_type:
+          type: varchar
+          label: 'Image type:'
         image_style:
           type: varchar
           label: 'Image style:'

@@ -35,6 +35,8 @@ function bootstrap_simple_carousel_help($route_name, RouteMatchInterface $route_
       $output .= '<dd>' . t('Show indicators, that allow to switch on the separate carousel item') . '</dd>';
       $output .= '<dt>' . t('controls') . '</dt>';
       $output .= '<dd>' . t('Show controls, that allow to switch to the next/prev carousel item') . '</dd>';
+      $output .= '<dt>' . t('image_type') . '</dt>';
+      $output .= '<dt>' . t('Setting up the image type such as circle or fluid (bootstrap possibility)') . '</dt>';
       $output .= '<dt>' . t('image_style') . '</dt>';
       $output .= '<dd>' . t('Setting up the image style for carousel item') . '</dd>';
       $output .= '<dt>' . t('assets') . '</dt>';

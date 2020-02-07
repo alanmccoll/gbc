@@ -105,6 +105,14 @@ class EditForm extends FormBase {
       '#default_value' => !empty($result->image_alt) ? $result->image_alt : '',
     ];
 
+    $form['image_link'] = [
+      '#type' => 'textfield',
+      '#title' => $this->t('Image link'),
+      '#description' => $this->t('For instance: `https://example.com`, `node/1`, `about`'),
+      '#required' => FALSE,
+      '#default_value' => !empty($result->image_link) ? $result->image_link : '',
+    ];
+
     $form['caption_title'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Caption title'),
@@ -158,6 +166,7 @@ class EditForm extends FormBase {
     $fields = [
       'image_title' => $form_state->getValue('image_title'),
       'image_alt' => $form_state->getValue('image_alt'),
+      'image_link' => $form_state->getValue('image_link'),
       'caption_title' => $form_state->getValue('caption_title'),
       'caption_text' => $form_state->getValue('caption_text'),
       'status' => $form_state->getValue('status'),

@@ -5,5 +5,5 @@ bootstrap_simple_carousel:
   indicators: 1
   controls: 1
   assets: 0
-  image_fluid: 1
+  image_type: []
   image_style: []
