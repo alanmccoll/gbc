@@ -7429,8 +7429,7 @@ div.main-container.container-fluid {
 /* line 88, ../assets/sass/gbc.scss */
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   margin: 0 auto;
-  width: 100%;
-  max-height: 550px; }
+  width: 100%; }
 
 /* line 94, ../assets/sass/gbc.scss */
 div.carousel-caption {
