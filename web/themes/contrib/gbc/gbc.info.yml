@@ -24,3 +24,4 @@ libraries-extend:
     - gbc/framework
 
 libraries:
+  - 'gbc/fonts'

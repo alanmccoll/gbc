@@ -11,6 +11,8 @@ html {
 body {
   height:100%;
   color:$gray;
+  font-family: 'Raleway', sans;
+  font-weight:300;
 }
 p {
   letter-spacing: .25px;
@@ -119,7 +121,11 @@ div.homepage {margin: 0 0 1.25em 0}
 .we-exist-1 {width:100%; margin:0 auto; margin-top:5px; margin-bottom:5px;}
 .we-exist-2 {max-width:70%; margin:0 auto;}
 // Heading overrides
-h1,h2,h3,h4 {color:#194286}
+h1,h2,h3,h4 {
+  color:#194286;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+}
 // panels
 .panel-field {
   padding-left: 10px;

@@ -20,3 +20,7 @@ framework:
     bootstrap/javascripts/bootstrap.min.js: {}
     bootstrap/javascripts/bibletagger.js: {}
     bootstrap/javascripts/hide_empty_div.js: {}
+  fonts:
+    css:
+      theme:
+        '//fonts.googleapis.com/css?family=Raleway:300,700|Montserrat:300': { type: external, minified: true }
