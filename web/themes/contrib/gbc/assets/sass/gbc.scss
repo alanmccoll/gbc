@@ -54,6 +54,9 @@ div > button {
 .img-responsive {
   margin:auto;
 }
+.margin-md {
+  margin:1em;
+}
 //Buttons
 .btn:hover {
   background-color:#efefef;
@@ -79,9 +82,7 @@ div.main-container.container-fluid {margin:0 2em 0 2em;}
 
 
 // Video Block padding-top
-.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
-    padding: 15px;
-}
+
 
 // Centering
 // div
