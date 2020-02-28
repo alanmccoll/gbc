@@ -7418,7 +7418,7 @@ div.main-container.container-fluid {
   div.main-container.container-fluid {
     margin: 0 .25em 0 .25em; } }
 /* line 72, ../assets/sass/gbc.scss */
-.navbar-nav > li > a, .dropdown-menu > li > a {
+.navbar-nav > li > a, .dropdown-menu > li > a, .navbar-nav > li {
   font-family: "Julius Sans One", sans-serif;
   letter-spacing: .5px; }
 
