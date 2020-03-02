@@ -7396,143 +7396,148 @@ div > button {
 #views-bootstrap-staff-directory-block-1 > div > div:nth-child(odd) {
   background-color: #eee; }
 
-/* line 54, ../assets/sass/gbc.scss */
-.img-responsive {
-  margin: auto; }
-
-/* line 57, ../assets/sass/gbc.scss */
+/* line 55, ../assets/sass/gbc.scss */
 .margin-md {
   margin: 1em; }
 
-/* line 61, ../assets/sass/gbc.scss */
+/* line 59, ../assets/sass/gbc.scss */
 .btn:hover {
   background-color: #efefef;
   color: #111; }
 
-/* line 65, ../assets/sass/gbc.scss */
+/* line 63, ../assets/sass/gbc.scss */
 .btn-default {
   background-color: #4a1730; }
 
-/* line 70, ../assets/sass/gbc.scss */
+/* line 68, ../assets/sass/gbc.scss */
 div.main-container.container-fluid {
   margin: 0 2em 0 2em; }
 
 @media screen and (max-width: 600px) {
-  /* line 72, ../assets/sass/gbc.scss */
+  /* line 70, ../assets/sass/gbc.scss */
   div.main-container.container-fluid {
     margin: 0 .25em 0 .25em; } }
-/* line 75, ../assets/sass/gbc.scss */
+/* line 73, ../assets/sass/gbc.scss */
 .navbar-nav > li > a, .dropdown-menu > li > a, .navbar-nav > li {
   font-family: "Julius Sans One", sans-serif;
   letter-spacing: .5px; }
 
-/* line 81, ../assets/sass/gbc.scss */
+/* line 79, ../assets/sass/gbc.scss */
 .panels {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
-/* line 89, ../assets/sass/gbc.scss */
+/* line 87, ../assets/sass/gbc.scss */
 .center-div {
   margin: 0 auto; }
 
-/* line 94, ../assets/sass/gbc.scss */
+/* line 92, ../assets/sass/gbc.scss */
 .margin-bottom-5 {
   margin-bottom: 5px; }
 
-/* line 98, ../assets/sass/gbc.scss */
+/* line 96, ../assets/sass/gbc.scss */
 .navbar-nav > li > a:hover {
   color: white; }
 
-/* line 101, ../assets/sass/gbc.scss */
+/* line 99, ../assets/sass/gbc.scss */
 .navbar-nav > li > a:active {
   color: #ddd; }
 
-/* line 105, ../assets/sass/gbc.scss */
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  margin: 0 auto;
-  width: 100%; }
+/* line 103, ../assets/sass/gbc.scss */
+div[id*='views_slideshow_cycle_div_front_page_slideshow-block'] {
+  position: relative !important; }
 
-/* line 111, ../assets/sass/gbc.scss */
-div.carousel-caption {
-  background-color: #333;
+/* line 106, ../assets/sass/gbc.scss */
+.caption {
+  position: absolute;
+  color: #f3f3f3;
+  bottom: .5em;
+  left: 35%;
   background-color: rgba(0, 0, 0, 0.4);
-  border: 1px #999;
-  width: 35%;
-  padding: 1%; }
+  padding: .5em;
+  border: solid 1px #222; }
 
-/* line 118, ../assets/sass/gbc.scss */
-div.carousel-caption:empty {
-  display: none; }
+/* line 116, ../assets/sass/gbc.scss */
+div.form-group {
+  margin-bottom: 1px; }
 
-/* line 122, ../assets/sass/gbc.scss */
+/* line 119, ../assets/sass/gbc.scss */
+.flexslider {
+  margin-bottom: 1px; }
+
+/* line 141, ../assets/sass/gbc.scss */
+a:hover, a:focus, a:active {
+  text-decoration: none; }
+
+/* line 144, ../assets/sass/gbc.scss */
 .navbar {
   border-radius: 0px;
   margin-bottom: 1px; }
 
-/* line 125, ../assets/sass/gbc.scss */
+/* line 147, ../assets/sass/gbc.scss */
 .navbar-nav {
   float: right;
   margin: .2em 1em 0 0; }
 
-/* line 126, ../assets/sass/gbc.scss */
+/* line 148, ../assets/sass/gbc.scss */
 .navbar-btn {
   margin-left: .5em; }
 
-/* line 128, ../assets/sass/gbc.scss */
+/* line 150, ../assets/sass/gbc.scss */
 .navbar-nav > li > a:hover {
   text-decoration: underline; }
 
-/* line 133, ../assets/sass/gbc.scss */
+/* line 155, ../assets/sass/gbc.scss */
 div.about.row {
   margin: 1.75em; }
 
-/* line 135, ../assets/sass/gbc.scss */
+/* line 157, ../assets/sass/gbc.scss */
 div.homepage {
   margin: 0 0 1.25em 0; }
 
-/* line 136, ../assets/sass/gbc.scss */
+/* line 158, ../assets/sass/gbc.scss */
 .we-exist-1 {
   width: 100%;
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 5px; }
 
-/* line 137, ../assets/sass/gbc.scss */
+/* line 159, ../assets/sass/gbc.scss */
 .we-exist-2 {
   max-width: 70%;
   margin: 0 auto; }
 
-/* line 139, ../assets/sass/gbc.scss */
+/* line 161, ../assets/sass/gbc.scss */
 h1, h2, h3, h4 {
   color: #194286;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300; }
 
-/* line 145, ../assets/sass/gbc.scss */
+/* line 167, ../assets/sass/gbc.scss */
 .panel-field {
   padding-left: 10px; }
 
-/* line 148, ../assets/sass/gbc.scss */
+/* line 170, ../assets/sass/gbc.scss */
 .panel-default .panel-heading, .panel-heading {
   background-color: #17304b;
   color: #e9ecee; }
 
-/* line 153, ../assets/sass/gbc.scss */
+/* line 175, ../assets/sass/gbc.scss */
 .breadcrumb {
   background-color: Transparent;
   margin-bottom: 10px; }
 
-/* line 158, ../assets/sass/gbc.scss */
+/* line 180, ../assets/sass/gbc.scss */
 audio {
   width: 99%; }
 
-/* line 163, ../assets/sass/gbc.scss */
+/* line 185, ../assets/sass/gbc.scss */
 .google-maps {
   position: relative;
   padding-bottom: 65%;
   height: 0;
   overflow: hidden; }
 
-/* line 169, ../assets/sass/gbc.scss */
+/* line 191, ../assets/sass/gbc.scss */
 .google-maps iframe {
   position: absolute;
   top: 0;
@@ -7540,42 +7545,42 @@ audio {
   width: 100% !important;
   height: 100% !important; }
 
-/* line 177, ../assets/sass/gbc.scss */
+/* line 199, ../assets/sass/gbc.scss */
 .sermon-list .views-row {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: dotted 1px #666; }
 
-/* line 183, ../assets/sass/gbc.scss */
+/* line 205, ../assets/sass/gbc.scss */
 .download-text {
   color: red; }
 
-/* line 188, ../assets/sass/gbc.scss */
+/* line 210, ../assets/sass/gbc.scss */
 .footer {
   height: auto;
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #ededed; }
 
-/* line 195, ../assets/sass/gbc.scss */
+/* line 217, ../assets/sass/gbc.scss */
 .footer-times-location, .footer-times-location > h2, h3, h4 {
   color: #121212;
   margin-right: 1em; }
 
-/* line 199, ../assets/sass/gbc.scss */
+/* line 221, ../assets/sass/gbc.scss */
 .footer-times-location .footer-description a {
   color: #333;
   text-decoration: none; }
 
-/* line 203, ../assets/sass/gbc.scss */
+/* line 225, ../assets/sass/gbc.scss */
 .footer-times-location .footer-description a:hover {
   color: #3744bf; }
 
-/* line 206, ../assets/sass/gbc.scss */
+/* line 228, ../assets/sass/gbc.scss */
 div.footer-description a:hover {
   color: #1252f3; }
 
-/* line 209, ../assets/sass/gbc.scss */
+/* line 231, ../assets/sass/gbc.scss */
 a:hover .label-info {
   background-color: #1252f3;
   text-decoration: none; }

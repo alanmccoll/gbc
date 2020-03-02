@@ -31,6 +31,7 @@
         "drupal/ctools": "3.0",
         "drupal/ctools_block": "3.0",
         "drupal/ctools_views": "3.0",
+        "drupal/flexslider": "^2.0@beta",
         "drupal/fontawesome": "^2.9",
         "drupal/geocoder": "^2.9",
         "drupal/geofield_map": "^2.57",

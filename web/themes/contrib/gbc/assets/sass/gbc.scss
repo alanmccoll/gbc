@@ -51,9 +51,7 @@ div > button {
 #views-bootstrap-staff-directory-block-1 > div > div:nth-child(odd) {
   background-color:#eee;
 }
-.img-responsive {
-  margin:auto;
-}
+
 .margin-md {
   margin:1em;
 }
@@ -101,24 +99,48 @@ div.main-container.container-fluid {margin:0 2em 0 2em;}
 .navbar-nav > li > a:active {
     color:#ddd;
 }
-// carousel pics
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  margin: 0 auto;
-  width:100%;
-//  max-height:550px;
+//Slideshow tweaks
+div[id*='views_slideshow_cycle_div_front_page_slideshow-block'] {
+  position:relative !important;
 }
-//Caption, Slider
-div.carousel-caption {
-  background-color:#333;
+.caption {
+  position:absolute;
+  color:#f3f3f3;
+  bottom:.5em;
+  left:35%;
   background-color:rgba(0,0,0,0.4);
-  border:1px #999;
-  width:35%;
-  padding:1%;
+  padding:.5em;
+  border:solid 1px #222;
 }
-div.carousel-caption:empty {
-  display:none;
+
+div.form-group {
+  margin-bottom:1px;
 }
+.flexslider {
+  margin-bottom:1px;
+}
+
+// carousel pics
+//.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+//  margin: 0 auto;
+//  width:100%;
+//  max-height:550px;
+//}
+//Caption, Slider
+//div.carousel-caption {
+//  background-color:#333;
+//  background-color:rgba(0,0,0,0.4);
+//  border:1px #999;
+//  width:35%;
+//  padding:1%;
+//}
+//div.carousel-caption:empty {
+//  display:none;
+//}
 // navbar
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
 .navbar {border-radius:0px;
   margin-bottom:1px;
   }
