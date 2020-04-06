@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee2def0f597deb6f106b82fbe0b7fc90",
+    "content-hash": "6ab1496629848c5971aab89598414aa9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4200,6 +4200,57 @@
             }
         },
         {
+            "name": "drupal/responsive_views_grid",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/responsive_views_grid.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/responsive_views_grid-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "dfa63dc73d3c703a910bc1210255453a37d9c2ec"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1538999580",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "imalabya",
+                    "homepage": "https://www.drupal.org/user/2641255"
+                }
+            ],
+            "description": "A view style plugin for responsive grids.",
+            "homepage": "https://www.drupal.org/project/responsive_views_grid",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/responsive_views_grid",
+                "issues": "https://www.drupal.org/project/issues/responsive_views_grid"
+            }
+        },
+        {
             "name": "drupal/token",
             "version": "1.6.0",
             "source": {
@@ -5274,6 +5325,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -5320,6 +5372,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
