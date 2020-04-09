@@ -44,30 +44,18 @@ div > button {
   margin:1em;
 }
 // responsive images, max width, for content
-.staff-container {
-  float:left;
-//  clear:both;
-
-}
-.staff-img img{
-  float:left;
-  max-width:200px;
-  width: 100%;
-  height: auto;
-  clear:none;
-  margin:15px;
+// staff images
+.img-staff img {
   box-shadow:4px 4px 10px;
 }
-article img {
-  max-width:250px !important;
+// widths
+.w-25 {
+  width:25%;
   height:auto;
-  margin:15px;
-  box-shadow:4px 4px 10px !important;
 }
-.staff-body span p {
-  width: 65%;
-  height: auto;
-  float: left;
+.w-50 {
+  width:50%;
+  height:auto;
 }
 //Buttons
 .btn:hover {
@@ -76,6 +64,14 @@ article img {
 }
 .btn-default {
   background-color: #4a1730;
+}
+// blog
+#views-bootstrap-blog-list-block-1 > li > div > div > p > img {
+  display:none;
+}
+body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div > section.block.block-layout-builder.block-field-blocknodeblog-postbody.clearfix > div > p > img {
+  margin:.5em;
+  box-shadow:4px 4px 10px;
 }
 
 // main
