@@ -21,7 +21,9 @@ body {
 p {
   letter-spacing: .25px;
 }
-
+.img-margin-sm {
+  margin:.75em;
+}
 @media (max-width:978px) {
     .btn, .panel-heading, .h3, h1, h2, h3, h4, p, li {
       font-size:85%;
@@ -47,6 +49,10 @@ div > button {
 // staff images
 .img-staff img {
   box-shadow:4px 4px 10px;
+}
+.block-field-blocknodestafffield-image img {
+  box-shadow:4px 4px 10px;
+  margin:.5em;
 }
 // widths
 .w-25 {

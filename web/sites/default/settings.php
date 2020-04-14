@@ -645,7 +645,7 @@ if ($settings['hash_salt']) {
 # $config['system.site']['name'] = 'My Drupal site';
 # $config['system.theme']['default'] = 'stark';
 # $config['user.settings']['anonymous'] = 'Visitor';
-
+$settings["file_temp_path"] = "/tmp";
 
 /**
  * Fast 404 pages:
@@ -710,9 +710,9 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  *
  * For example:
  * @code
- * $settings['trusted_host_patterns'] = array(
- *   '^www\.example\.com$',
- * );
+ $settings['trusted_host_patterns'] = [
+ '^localhost$',
+];
  * @endcode
  * will allow the site to only run from www.example.com.
  *
