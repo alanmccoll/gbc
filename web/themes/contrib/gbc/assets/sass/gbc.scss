@@ -21,6 +21,14 @@ body {
 p {
   letter-spacing: .25px;
 }
+// UL LI
+.ministry-block > ul, .ministry-block > li {
+  list-style: none;
+  font-family:"Helvetica";
+  font-size:1em;
+  font-style:oblique;
+  margin:0 0 0 1.5em;
+}
 .img-margin-sm {
   margin:.75em;
 }
@@ -158,8 +166,15 @@ div.homepage {margin: 0 0 1.25em 0}
 .we-exist-2 {max-width:70%; margin:0 auto;}
 // Heading overrides
 h1,h2,h3,h4 {
+  margin-left:2em;
   color:#194286;
   font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+}
+h3,h4 {
+  margin-left:2em;
+  font-family: 'Montserrat', sans-serif;
+  color:#194286;
   font-weight:300;
 }
 // panels
@@ -213,7 +228,7 @@ audio {
   background-color: #ededed;
 }
 // footer divs
-.footer-times-location, .footer-times-location > h2, h3, h4 {
+.footer-times-location, .footer-times-location > h2, h4 {
   color:#121212;
   margin-right:1em;
 }
