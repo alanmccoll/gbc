@@ -32,6 +32,7 @@ p {
 .img-margin-sm {
   margin:.75em;
 }
+
 @media (max-width:978px) {
     .btn, .panel-heading, .h3, h1, h2, h3, h4, p, li {
       font-size:85%;
@@ -53,10 +54,19 @@ div > button {
 .margin-md {
   margin:1em;
 }
+#edit-processed-text > p > img {
+  box-shadow:4px 4px 10px;
+  border-radius:5px;
+}
+#doc-block {
+  background-color:#C7D5ED;
+}
 // responsive images, max width, for content
 // staff images
 .img-staff img {
   box-shadow:4px 4px 10px;
+  border-radius:5px;
+
 }
 .block-field-blocknodestafffield-image img {
   box-shadow:4px 4px 10px;
