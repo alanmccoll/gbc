@@ -32,7 +32,9 @@ p {
 .img-margin-sm {
   margin:.75em;
 }
-
+.padding-med {
+  padding:1.5em;
+}
 @media (max-width:978px) {
     .btn, .panel-heading, .h3, h1, h2, h3, h4, p, li {
       font-size:85%;
