@@ -38,6 +38,75 @@ p {
 .margin-med {
   margin:1.5em;
 }
+div.views-field > span {
+  margin-right:.5em;
+}
+// blog stuff
+.row-blog {
+//  display:flex; //equal height of children
+}
+.col-blog {
+//  flex:auto; //equal widths
+  background-color:#F9F9F9;
+//  margin:.2em;
+  padding:1em;
+  border:1px #ccc solid;
+}
+div.blog-list-div {
+  background-color:#F9F9F9;
+//  margin:10px;
+  padding:10px;
+  border:1px #ccc solid;
+  height:30%;
+}
+.blog-row {
+  margin-bottom:.5em;
+  //  flex:auto; //equal widths
+  background-color:#F9F9F9;
+  //  margin:.2em;
+  padding:1.5em;
+  box-shadow:0px 0px 0px 1px #ddd inset;
+  //border:1px #ccc solid;
+}
+.author-title {
+  color:#52B14C;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:5px;
+}
+.button-blog {
+  margin-left:30%;
+}
+.button-blog a, .button-blog a:visited {
+  color:white;
+}
+.button-blog a:hover, .button-blog a:focus {
+  color:#0b1724 !important;
+}
+.btn-primary:hover, .button-primary:focus, .btn-primary a:hover, .button-primary a:focus {
+  background-color:white !important;
+  color:#0b1724 !important;
+}
+.btn-primary:hover > a {
+color: #0b1724 !important;
+}
+div.views-field.views-field-field-image > div > img {
+  margin:auto;
+}
+div.extra-padding-top {
+  padding:.5em;
+}
+div.extra-padding-left {
+  padding-left:.5em;
+}
+div.extra-padding-right {
+  padding-right:.5em;
+}
+div.extra-padding-bottom {
+  padding-bottom:.5em;
+}
+
+
 @media (max-width:978px) {
     .btn, .panel-heading, .h3, h1, h2, h3, h4, p, li {
       font-size:85%;
