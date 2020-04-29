@@ -74,6 +74,44 @@ div.blog-list-div {
   margin-bottom:5px;
   margin-left:5px;
 }
+.block-field-blocknodeblog-postuid > span,  {
+  color:#52B14C;
+  font-style:italic;
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left:5px;
+
+}
+.block-field-blocknodeblog-postcreated > span {
+  color:#52B14C;
+  margin-bottom:5px;
+  margin-left:5px;
+
+}
+body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div.col-sm-4.bs-region.bs-region--top-right {
+  background-color:#ddd;
+  padding:2em;
+  border-radius: 5px;
+  border:1px solid #bbb;
+}
+.blog-row-list {
+  margin-bottom:.5em;
+}
+body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div.col-sm-8.bs-region.bs-region--top-left > section.block.block-layout-builder.block-field-blocknodeblog-postuid.clearfix {
+  margin-top:10px;
+}
+body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div.col-sm-8.bs-region.bs-region--top-left > section.block.block-layout-builder.block-field-blocknodeblog-postcreated.clearfix {
+  margin-bottom:10px;
+}
+div.social {
+  text-align:center;
+}
+div.social > span {
+  display:inline-block;
+}
+blockquote {
+  font-size:1.25em;
+}
 .button-blog {
   margin-left:30%;
 }
