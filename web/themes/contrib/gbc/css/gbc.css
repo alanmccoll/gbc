@@ -7355,17 +7355,26 @@ a {
   text-decoration: none; }
 
 /* line 15, ../assets/sass/gbc.scss */
+div.social > span > a {
+  color: #3B5898; }
+
+/* line 19, ../assets/sass/gbc.scss */
+div.social-share {
+  margin: .5em;
+  float: right; }
+
+/* line 23, ../assets/sass/gbc.scss */
 body {
   height: 100%;
   color: #3d3d3d;
   font-family: 'Raleway', sans;
   font-weight: 300; }
 
-/* line 21, ../assets/sass/gbc.scss */
+/* line 29, ../assets/sass/gbc.scss */
 p {
   letter-spacing: .25px; }
 
-/* line 25, ../assets/sass/gbc.scss */
+/* line 33, ../assets/sass/gbc.scss */
 .ministry-block > ul, .ministry-block > li {
   list-style: none;
   font-family: "Helvetica";
@@ -7373,50 +7382,50 @@ p {
   font-style: oblique;
   margin: 0 0 0 1.5em; }
 
-/* line 32, ../assets/sass/gbc.scss */
+/* line 40, ../assets/sass/gbc.scss */
 .img-margin-sm {
   margin: .75em; }
 
-/* line 35, ../assets/sass/gbc.scss */
+/* line 43, ../assets/sass/gbc.scss */
 .padding-med {
   padding: 1.5em; }
 
-/* line 38, ../assets/sass/gbc.scss */
+/* line 46, ../assets/sass/gbc.scss */
 .margin-med {
   margin: 1.5em; }
 
-/* line 41, ../assets/sass/gbc.scss */
+/* line 49, ../assets/sass/gbc.scss */
 div.views-field > span {
   margin-right: .5em; }
 
-/* line 48, ../assets/sass/gbc.scss */
+/* line 56, ../assets/sass/gbc.scss */
 .col-blog {
   background-color: #F9F9F9;
   padding: 1em;
   border: 1px #ccc solid; }
 
-/* line 55, ../assets/sass/gbc.scss */
+/* line 63, ../assets/sass/gbc.scss */
 div.blog-list-div {
   background-color: #F9F9F9;
   padding: 10px;
   border: 1px #ccc solid;
   height: 30%; }
 
-/* line 62, ../assets/sass/gbc.scss */
+/* line 70, ../assets/sass/gbc.scss */
 .blog-row {
   margin-bottom: .5em;
   background-color: #F9F9F9;
   padding: 1.5em;
   box-shadow: 0px 0px 0px 1px #ddd inset; }
 
-/* line 71, ../assets/sass/gbc.scss */
+/* line 79, ../assets/sass/gbc.scss */
 .author-title {
   color: #52B14C;
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 5px; }
 
-/* line 77, ../assets/sass/gbc.scss */
+/* line 85, ../assets/sass/gbc.scss */
 .block-field-blocknodeblog-postuid > span {
   color: #52B14C;
   font-style: italic;
@@ -7424,189 +7433,189 @@ div.blog-list-div {
   margin-bottom: 5px;
   margin-left: 5px; }
 
-/* line 85, ../assets/sass/gbc.scss */
+/* line 93, ../assets/sass/gbc.scss */
 .block-field-blocknodeblog-postcreated > span {
   color: #52B14C;
   margin-bottom: 5px;
   margin-left: 5px; }
 
-/* line 91, ../assets/sass/gbc.scss */
+/* line 99, ../assets/sass/gbc.scss */
 body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div.col-sm-4.bs-region.bs-region--top-right {
   background-color: #ddd;
   padding: 2em;
   border-radius: 5px;
   border: 1px solid #bbb; }
 
-/* line 97, ../assets/sass/gbc.scss */
+/* line 105, ../assets/sass/gbc.scss */
 .blog-row-list {
   margin-bottom: .5em; }
 
-/* line 100, ../assets/sass/gbc.scss */
+/* line 108, ../assets/sass/gbc.scss */
 body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div.col-sm-8.bs-region.bs-region--top-left > section.block.block-layout-builder.block-field-blocknodeblog-postuid.clearfix {
   margin-top: 10px; }
 
-/* line 103, ../assets/sass/gbc.scss */
+/* line 111, ../assets/sass/gbc.scss */
 body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div.col-sm-8.bs-region.bs-region--top-left > section.block.block-layout-builder.block-field-blocknodeblog-postcreated.clearfix {
   margin-bottom: 10px; }
 
-/* line 106, ../assets/sass/gbc.scss */
+/* line 114, ../assets/sass/gbc.scss */
 div.social {
   text-align: center; }
 
-/* line 109, ../assets/sass/gbc.scss */
+/* line 117, ../assets/sass/gbc.scss */
 div.social > span {
   display: inline-block; }
 
-/* line 112, ../assets/sass/gbc.scss */
+/* line 120, ../assets/sass/gbc.scss */
 blockquote {
   font-size: 1.25em; }
 
-/* line 115, ../assets/sass/gbc.scss */
+/* line 123, ../assets/sass/gbc.scss */
 .button-blog {
   margin-left: 30%; }
 
-/* line 118, ../assets/sass/gbc.scss */
+/* line 126, ../assets/sass/gbc.scss */
 .button-blog a, .button-blog a:visited {
   color: white; }
 
-/* line 121, ../assets/sass/gbc.scss */
+/* line 129, ../assets/sass/gbc.scss */
 .button-blog a:hover, .button-blog a:focus {
   color: #0b1724 !important; }
 
-/* line 124, ../assets/sass/gbc.scss */
+/* line 132, ../assets/sass/gbc.scss */
 .btn-primary:hover, .button-primary:focus, .btn-primary a:hover, .button-primary a:focus {
   background-color: white !important;
   color: #0b1724 !important; }
 
-/* line 128, ../assets/sass/gbc.scss */
+/* line 136, ../assets/sass/gbc.scss */
 .btn-primary:hover > a {
   color: #0b1724 !important; }
 
-/* line 131, ../assets/sass/gbc.scss */
+/* line 139, ../assets/sass/gbc.scss */
 div.views-field.views-field-field-image > div > img {
   margin: auto; }
 
-/* line 134, ../assets/sass/gbc.scss */
+/* line 142, ../assets/sass/gbc.scss */
 div.extra-padding-top {
   padding: .5em; }
 
-/* line 137, ../assets/sass/gbc.scss */
+/* line 145, ../assets/sass/gbc.scss */
 div.extra-padding-left {
   padding-left: .5em; }
 
-/* line 140, ../assets/sass/gbc.scss */
+/* line 148, ../assets/sass/gbc.scss */
 div.extra-padding-right {
   padding-right: .5em; }
 
-/* line 143, ../assets/sass/gbc.scss */
+/* line 151, ../assets/sass/gbc.scss */
 div.extra-padding-bottom {
   padding-bottom: .5em; }
 
 @media (max-width: 978px) {
-  /* line 149, ../assets/sass/gbc.scss */
+  /* line 157, ../assets/sass/gbc.scss */
   .btn, .panel-heading, .h3, h1, h2, h3, h4, p, li {
     font-size: 85%; }
 
-  /* line 152, ../assets/sass/gbc.scss */
+  /* line 160, ../assets/sass/gbc.scss */
   div.footer-times-location img {
     max-width: 35%; }
 
-  /* line 155, ../assets/sass/gbc.scss */
+  /* line 163, ../assets/sass/gbc.scss */
   a.logo img {
     max-width: 80%; } }
-/* line 160, ../assets/sass/gbc.scss */
+/* line 168, ../assets/sass/gbc.scss */
 div > button {
   margin: 0 auto; }
 
-/* line 166, ../assets/sass/gbc.scss */
+/* line 174, ../assets/sass/gbc.scss */
 .margin-md {
   margin: 1em; }
 
-/* line 169, ../assets/sass/gbc.scss */
+/* line 177, ../assets/sass/gbc.scss */
 #edit-processed-text > p > img {
   box-shadow: 4px 4px 10px;
   border-radius: 5px; }
 
-/* line 173, ../assets/sass/gbc.scss */
+/* line 181, ../assets/sass/gbc.scss */
 #doc-block {
   background-color: #C7D5ED; }
 
-/* line 178, ../assets/sass/gbc.scss */
+/* line 186, ../assets/sass/gbc.scss */
 .img-staff img {
   box-shadow: 4px 4px 10px;
   border-radius: 5px; }
 
-/* line 183, ../assets/sass/gbc.scss */
+/* line 191, ../assets/sass/gbc.scss */
 .block-field-blocknodestafffield-image img {
   box-shadow: 4px 4px 10px;
   margin: .5em; }
 
-/* line 188, ../assets/sass/gbc.scss */
+/* line 196, ../assets/sass/gbc.scss */
 .w-25 {
   width: 25%;
   height: auto; }
 
-/* line 192, ../assets/sass/gbc.scss */
+/* line 200, ../assets/sass/gbc.scss */
 .w-50 {
   width: 50%;
   height: auto; }
 
-/* line 197, ../assets/sass/gbc.scss */
+/* line 205, ../assets/sass/gbc.scss */
 .btn:hover {
   background-color: #efefef;
   color: #111; }
 
-/* line 201, ../assets/sass/gbc.scss */
+/* line 209, ../assets/sass/gbc.scss */
 .btn-default {
   background-color: #4a1730; }
 
-/* line 205, ../assets/sass/gbc.scss */
+/* line 213, ../assets/sass/gbc.scss */
 #views-bootstrap-blog-list-block-1 > li > div > div > p > img {
   display: none; }
 
-/* line 208, ../assets/sass/gbc.scss */
+/* line 216, ../assets/sass/gbc.scss */
 body > div.dialog-off-canvas-main-canvas > div > div > section > div.region.region-content > article > div.content > div > div > section.block.block-layout-builder.block-field-blocknodeblog-postbody.clearfix > div > p > img {
   margin: .5em;
   box-shadow: 4px 4px 10px; }
 
-/* line 214, ../assets/sass/gbc.scss */
+/* line 222, ../assets/sass/gbc.scss */
 div.main-container.container-fluid {
   margin: 0 2em 0 2em; }
 
 @media screen and (max-width: 600px) {
-  /* line 216, ../assets/sass/gbc.scss */
+  /* line 224, ../assets/sass/gbc.scss */
   div.main-container.container-fluid {
     margin: 0 .25em 0 .25em; } }
-/* line 219, ../assets/sass/gbc.scss */
+/* line 227, ../assets/sass/gbc.scss */
 .navbar-nav > li > a, .dropdown-menu > li > a, .navbar-nav > li {
   font-family: "Julius Sans One", sans-serif;
   letter-spacing: .5px; }
 
-/* line 225, ../assets/sass/gbc.scss */
+/* line 233, ../assets/sass/gbc.scss */
 .panels {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 
-/* line 233, ../assets/sass/gbc.scss */
+/* line 241, ../assets/sass/gbc.scss */
 .center-div {
   margin: 0 auto; }
 
-/* line 238, ../assets/sass/gbc.scss */
+/* line 246, ../assets/sass/gbc.scss */
 .margin-bottom-5 {
   margin-bottom: 5px; }
 
-/* line 242, ../assets/sass/gbc.scss */
+/* line 250, ../assets/sass/gbc.scss */
 .navbar-nav > li > a:hover {
   color: white; }
 
-/* line 245, ../assets/sass/gbc.scss */
+/* line 253, ../assets/sass/gbc.scss */
 .navbar-nav > li > a:active {
   color: #ddd; }
 
-/* line 249, ../assets/sass/gbc.scss */
+/* line 257, ../assets/sass/gbc.scss */
 div[id*='views_slideshow_cycle_div_front_page_slideshow-block'] {
   position: relative !important; }
 
-/* line 252, ../assets/sass/gbc.scss */
+/* line 260, ../assets/sass/gbc.scss */
 .caption {
   position: absolute;
   color: #f3f3f3;
@@ -7616,96 +7625,96 @@ div[id*='views_slideshow_cycle_div_front_page_slideshow-block'] {
   padding: .5em;
   border: solid 1px #222; }
 
-/* line 262, ../assets/sass/gbc.scss */
+/* line 270, ../assets/sass/gbc.scss */
 div.form-group {
   margin-bottom: 1px; }
 
-/* line 265, ../assets/sass/gbc.scss */
+/* line 273, ../assets/sass/gbc.scss */
 .flexslider {
   margin-bottom: 1px; }
 
-/* line 270, ../assets/sass/gbc.scss */
+/* line 278, ../assets/sass/gbc.scss */
 a:hover, a:focus, a:active {
   text-decoration: none; }
 
-/* line 273, ../assets/sass/gbc.scss */
+/* line 281, ../assets/sass/gbc.scss */
 .navbar {
   border-radius: 0px;
   margin-bottom: 1px; }
 
-/* line 276, ../assets/sass/gbc.scss */
+/* line 284, ../assets/sass/gbc.scss */
 .navbar-nav {
   float: right;
   margin: .2em 1em 0 0; }
 
-/* line 277, ../assets/sass/gbc.scss */
+/* line 285, ../assets/sass/gbc.scss */
 .navbar-btn {
   margin-left: .5em; }
 
-/* line 279, ../assets/sass/gbc.scss */
+/* line 287, ../assets/sass/gbc.scss */
 .navbar-nav > li > a:hover {
   text-decoration: underline; }
 
-/* line 284, ../assets/sass/gbc.scss */
+/* line 292, ../assets/sass/gbc.scss */
 div.about.row {
   margin: 1.75em; }
 
-/* line 286, ../assets/sass/gbc.scss */
+/* line 294, ../assets/sass/gbc.scss */
 div.homepage {
   margin: 0 0 1.25em 0; }
 
-/* line 287, ../assets/sass/gbc.scss */
+/* line 295, ../assets/sass/gbc.scss */
 .we-exist-1 {
   width: 100%;
   margin: 0 auto;
   margin-top: 5px;
   margin-bottom: 5px; }
 
-/* line 288, ../assets/sass/gbc.scss */
+/* line 296, ../assets/sass/gbc.scss */
 .we-exist-2 {
   max-width: 70%;
   margin: 0 auto; }
 
-/* line 290, ../assets/sass/gbc.scss */
+/* line 298, ../assets/sass/gbc.scss */
 h1, h2, h3, h4 {
   margin-left: 2em;
   color: #194286;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300; }
 
-/* line 296, ../assets/sass/gbc.scss */
+/* line 304, ../assets/sass/gbc.scss */
 h3, h4 {
   margin-left: 2em;
   font-family: 'Montserrat', sans-serif;
   color: #194286;
   font-weight: 300; }
 
-/* line 303, ../assets/sass/gbc.scss */
+/* line 311, ../assets/sass/gbc.scss */
 .panel-field {
   padding-left: 10px; }
 
-/* line 306, ../assets/sass/gbc.scss */
+/* line 314, ../assets/sass/gbc.scss */
 .panel-default .panel-heading, .panel-heading {
   background-color: #17304b;
   color: #e9ecee; }
 
-/* line 311, ../assets/sass/gbc.scss */
+/* line 319, ../assets/sass/gbc.scss */
 .breadcrumb {
   background-color: Transparent;
   margin-bottom: 10px; }
 
-/* line 316, ../assets/sass/gbc.scss */
+/* line 324, ../assets/sass/gbc.scss */
 audio {
   width: 99%; }
 
-/* line 321, ../assets/sass/gbc.scss */
+/* line 329, ../assets/sass/gbc.scss */
 .google-maps {
   position: relative;
   padding-bottom: 65%;
   height: 0;
   overflow: hidden; }
 
-/* line 327, ../assets/sass/gbc.scss */
+/* line 335, ../assets/sass/gbc.scss */
 .google-maps iframe {
   position: absolute;
   top: 0;
@@ -7713,42 +7722,42 @@ audio {
   width: 100% !important;
   height: 100% !important; }
 
-/* line 335, ../assets/sass/gbc.scss */
+/* line 343, ../assets/sass/gbc.scss */
 .sermon-list .views-row {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: dotted 1px #666; }
 
-/* line 341, ../assets/sass/gbc.scss */
+/* line 349, ../assets/sass/gbc.scss */
 .download-text {
   color: red; }
 
-/* line 346, ../assets/sass/gbc.scss */
+/* line 354, ../assets/sass/gbc.scss */
 .footer {
   height: auto;
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #ededed; }
 
-/* line 353, ../assets/sass/gbc.scss */
+/* line 361, ../assets/sass/gbc.scss */
 .footer-times-location, .footer-times-location > h2, h4 {
   color: #121212;
   margin-right: 1em; }
 
-/* line 357, ../assets/sass/gbc.scss */
+/* line 365, ../assets/sass/gbc.scss */
 .footer-times-location .footer-description a {
   color: #333;
   text-decoration: none; }
 
-/* line 361, ../assets/sass/gbc.scss */
+/* line 369, ../assets/sass/gbc.scss */
 .footer-times-location .footer-description a:hover {
   color: #3744bf; }
 
-/* line 364, ../assets/sass/gbc.scss */
+/* line 372, ../assets/sass/gbc.scss */
 div.footer-description a:hover {
   color: #1252f3; }
 
-/* line 367, ../assets/sass/gbc.scss */
+/* line 375, ../assets/sass/gbc.scss */
 a:hover .label-info {
   background-color: #1252f3;
   text-decoration: none; }

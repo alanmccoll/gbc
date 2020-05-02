@@ -12,6 +12,14 @@ a {
   color:#124bc9;
   text-decoration: none;
 }
+div.social > span > a {
+  color:#3B5898;
+}
+// addtoany icons
+div.social-share {
+  margin:.5em;
+  float:right;
+}
 body {
   height:100%;
   color:$gray;
