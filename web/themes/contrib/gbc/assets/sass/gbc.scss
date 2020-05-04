@@ -29,6 +29,15 @@ body {
 p {
   letter-spacing: .25px;
 }
+// Facebook video styles
+.facebook-list {
+  background-color:#ddd;
+  border-radius:5px;
+  border:solid 1px #aaa;
+}
+.facebook-video {
+
+}
 // UL LI
 .ministry-block > ul, .ministry-block > li {
   list-style: none;
@@ -296,7 +305,7 @@ div.homepage {margin: 0 0 1.25em 0}
 .we-exist-2 {max-width:70%; margin:0 auto;}
 // Heading overrides
 h1,h2,h3,h4 {
-  margin-left:2em;
+  margin-left:1em;
   color:#194286;
   font-family: 'Montserrat', sans-serif;
   font-weight:300;
