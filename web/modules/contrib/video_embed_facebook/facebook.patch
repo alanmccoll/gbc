@@ -1,0 +1,12 @@
+diff --git a/src/Plugin/video_embed_field/Provider/Facebook.php b/src/Plugin/video_embed_field/Provider/Facebook.php
+index 2b72fb3..852ee67 100755
+--- a/src/Plugin/video_embed_field/Provider/Facebook.php
++++ b/src/Plugin/video_embed_field/Provider/Facebook.php
+@@ -43,7 +43,7 @@ class Facebook extends ProviderPluginBase {
+    * {@inheritdoc}
+    */
+   public static function getIdFromInput($input) {
+-    preg_match('/^https?:\/\/(www\.)?facebook.com\/([\w-\.]*\/videos\/|video\.php\?v\=)(?<id>[0-9]*)\/?$/', $input, $matches);
++    preg_match('/^https?:\/\/(www\.)?facebook.com\/([\w\-\.]*\/videos\/|video\.php\?v\=)(?<id>[0-9]*)\/?$/', $input, $matches);
+     return isset($matches['id']) ? $matches['id'] : FALSE;
+   }
