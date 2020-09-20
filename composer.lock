@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b58f8d161250acd1027012439450e69",
+    "content-hash": "d44005217a8140801fe5c088f66caa06",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4771,6 +4771,57 @@
             }
         },
         {
+            "name": "drupal/videojs",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/videojs.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/videojs-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "daf810898fbae1cf608ad45fd4e836bd6935949d"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1454344739",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jorrit",
+                    "homepage": "https://www.drupal.org/user/161217"
+                },
+                {
+                    "name": "heshanlk",
+                    "homepage": "https://www.drupal.org/user/199102"
+                }
+            ],
+            "description": "Video.js is an HTML5 Video Player.",
+            "homepage": "https://www.drupal.org/project/videojs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/videojs"
+            }
+        },
+        {
             "name": "drupal/views_bootstrap",
             "version": "4.2.0",
             "source": {
@@ -5302,12 +5353,12 @@
             "version": "0.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/njh/easyrdf.git",
+                "url": "https://github.com/easyrdf/easyrdf.git",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/njh/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
                 "shasum": ""
             },
@@ -11785,6 +11836,7 @@
         "drupal/captcha": 10,
         "drupal/flexslider": 10,
         "drupal/inline_entity_form": 5,
+        "drupal/libraries": 15,
         "drupal/page_manager": 10,
         "drupal/page_manager_ui": 10,
         "drupal/readme": 10,

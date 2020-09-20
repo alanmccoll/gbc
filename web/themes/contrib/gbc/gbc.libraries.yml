@@ -2,6 +2,8 @@ framework:
   css:
     theme:
       css/gbc.css: {}
+      css/index.css: {}
+      '//vjs.zencdn.net/7.8.2/video-js.css': {type: external, minified: true }
   js:
     bootstrap/javascripts/bootstrap/affix.js: {}
     bootstrap/javascripts/bootstrap/alert.js: {}
@@ -20,7 +22,10 @@ framework:
     bootstrap/javascripts/bootstrap.min.js: {}
     bootstrap/javascripts/bibletagger.js: {}
     bootstrap/javascripts/hide_empty_div.js: {}
+    '//vjs.zencdn.net/7.8.2/video.js': { type: external, minified: true }
   fonts:
     css:
       theme:
         '//fonts.googleapis.com/css?family=Raleway:300,700|Montserrat:300': { type: external, minified: true }
+        
+        
