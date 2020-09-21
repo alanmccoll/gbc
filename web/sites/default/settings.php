@@ -710,9 +710,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  *
  * For example:
  * @code
- $settings['trusted_host_patterns'] = [
- '^localhost$',
-];
+ $settings['trusted_host_patterns'] = array('^localhost$');
 
  * @endcode
  * will allow the site to only run from www.example.com.
@@ -735,8 +733,7 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * example.org, with all subdomains included.
  */
 $settings['trusted_host_patterns'] = [
-  '^www\.goodwillbaptist\.org$',
-  '^goodwillbaptist\.org$',
+  '^localhost$',
 ];
 
 /**
