@@ -29,16 +29,12 @@ body {
 p {
   letter-spacing: .25px;
 }
-// Facebook video styles
-.facebook-list {
-  background-color:#ddd;
-  border-radius:5px;
-  border:solid 1px #aaa;
-  margin:1em 0 1em 0;
+// Video styles
+#youtubechannel-list img {
+min-width:200px;
+height:auto;
 }
-.facebook-video {
-  margin:1em 0 1em 0;
-}
+
 // UL LI
 .ministry-block > ul, .ministry-block > li {
   list-style: none;
