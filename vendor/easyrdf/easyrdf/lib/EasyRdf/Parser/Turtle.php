@@ -5,7 +5,7 @@
  *
  * LICENSE
  *
- * Copyright (c) 2009-2013 Nicholas J Humfrey.
+ * Copyright (c) 2009-2021 Nicholas J Humfrey.
  * Copyright (c) 1997-2013 Aduna (http://www.aduna-software.com/)
  * All rights reserved.
  *
@@ -33,7 +33,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @package    EasyRdf
- * @copyright  Copyright (c) 2009-2013 Nicholas J Humfrey
+ * @copyright  Copyright (c) 2009-2021 Nicholas J Humfrey
  *             Copyright (c) 1997-2006 Aduna (http://www.aduna-software.com/)
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
@@ -43,12 +43,12 @@
  *
  * It is a translation from Java to PHP of the Sesame Turtle Parser:
  * http://bit.ly/TurtleParser
- * 
- * Lasted updated against version: 
+ *
+ * Lasted updated against version:
  * ecda6a15a200a2fc6a062e2e43081257c3ccd4e6   (Mon Jul 29 12:05:58 2013)
- * 
+ *
  * @package    EasyRdf
- * @copyright  Copyright (c) 2009-2013 Nicholas J Humfrey
+ * @copyright  Copyright (c) 2009-2021 Nicholas J Humfrey
  *             Copyright (c) 1997-2013 Aduna (http://www.aduna-software.com/)
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
@@ -59,7 +59,7 @@ class EasyRdf_Parser_Turtle extends EasyRdf_Parser_Ntriples
     protected $subject;
     protected $predicate;
     protected $object;
-    
+
     protected $line;
     protected $column;
 
@@ -96,7 +96,7 @@ class EasyRdf_Parser_Turtle extends EasyRdf_Parser_Ntriples
         $this->subject = null;
         $this->predicate = null;
         $this->object = null;
-        
+
         $this->line = 1;
         $this->column = 1;
 

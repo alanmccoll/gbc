@@ -1,0 +1,12 @@
+name: Youtube Channel
+type: module
+description: 'Shows the list of youtube videos from a Youtube Channel.'
+package: Editor
+configure: youtubechannel.settings
+core: '8.x'
+core_version_requirement: ^8 || ^9
+
+# Information added by Drupal.org packaging script on 2020-06-14
+version: '8.x-3.2'
+project: 'youtubechannel'
+datestamp: 1592153271

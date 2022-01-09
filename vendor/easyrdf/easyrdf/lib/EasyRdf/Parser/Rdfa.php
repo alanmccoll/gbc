@@ -5,7 +5,7 @@
  *
  * LICENSE
  *
- * Copyright (c) 2012-2013 Nicholas J Humfrey.
+ * Copyright (c) 2012-2021 Nicholas J Humfrey.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -32,7 +32,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  * @package    EasyRdf
- * @copyright  Copyright (c) 2009-2013 Nicholas J Humfrey
+ * @copyright  Copyright (c) 2009-2021 Nicholas J Humfrey
  *             Copyright (c) 1997-2006 Aduna (http://www.aduna-software.com/)
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
@@ -43,7 +43,7 @@
  * http://www.w3.org/TR/rdfa-core/
  *
  * @package    EasyRdf
- * @copyright  Copyright (c) 2012-2013 Nicholas J Humfrey
+ * @copyright  Copyright (c) 2012-2021 Nicholas J Humfrey
  * @license    http://www.opensource.org/licenses/bsd-license.php
  */
 class EasyRdf_Parser_Rdfa extends EasyRdf_Parser

@@ -116,6 +116,7 @@ abstract class BaseIO implements IOInterface, LoggerInterface
         $gitlabOauth = $config->get('gitlab-oauth') ?: array();
         $gitlabToken = $config->get('gitlab-token') ?: array();
         $httpBasic = $config->get('http-basic') ?: array();
+        $bearerToken = $config->get('bearer') ?: array();
 
         // reload oauth tokens from config if available
 
@@ -124,7 +125,9 @@ abstract class BaseIO implements IOInterface, LoggerInterface
         }
 
         foreach ($githubOauth as $domain => $token) {
-            if (!preg_match('{^[.a-z0-9]+$}', $token)) {
+            // allowed chars for GH tokens are from https://github.blog/changelog/2021-03-04-authentication-token-format-updates/
+            // plus dots which were at some point used for GH app integration tokens
+            if (!preg_match('{^[.A-Za-z0-9_]+$}', $token)) {
                 throw new \UnexpectedValueException('Your github oauth token for '.$domain.' contains invalid characters: "'.$token.'"');
             }
             $this->checkAndSetAuthentication($domain, $token, 'x-oauth-basic');
@@ -141,6 +144,10 @@ abstract class BaseIO implements IOInterface, LoggerInterface
         // reload http basic credentials from config if available
         foreach ($httpBasic as $domain => $cred) {
             $this->checkAndSetAuthentication($domain, $cred['username'], $cred['password']);
+        }
+
+        foreach ($bearerToken as $domain => $token) {
+            $this->checkAndSetAuthentication($domain, $token, 'bearer');
         }
 
         // setup process timeout
